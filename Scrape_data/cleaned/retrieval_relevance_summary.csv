@@ -1,0 +1,4 @@
+relevance_label,record_count,percentage_of_deduplicated_corpus
+highly_relevant,28,2.71%
+possibly_relevant,186,17.97%
+not_relevant,821,79.32%

@@ -1,0 +1,8 @@
+﻿source,records_collected,records_with_text,records_with_url,records_with_date,duplicate_count,empty_record_count
+Google Play Store,200,200,200,200,0,0
+Apple App Store,200,200,200,200,0,0
+Reddit,75,75,75,75,0,0
+Google Photos Help Community,195,195,195,0,1,0
+YouTube Comments,200,200,200,200,0,0
+Public Forums (Hacker News & Tech),139,139,139,139,1,0
+Public Social Media (Bluesky & Mastodon),28,28,28,28,0,0

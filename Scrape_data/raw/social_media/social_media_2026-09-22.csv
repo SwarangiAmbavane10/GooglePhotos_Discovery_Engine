@@ -1,0 +1,1894 @@
+﻿record_id,source,platform,source_id,url,title,author,text,published_at,rating,language,search_query,collected_at
+social_media_36368136,social_media,lemmy_social,36368136,https://lemmy.ml/post/36574783,My detailed de-google journey: Why and what I replaced with,cedar_rez,"My detailed de-google journey: Why and what I replaced with
+I thought I would post my own journey to de-googling with challenges and wins along the way. I realise that this is a de-google community however I will also be mentioning some other replacements too. Hope this helps anyone but let me know if I can help answer any questions or discuss anything.
+
+# Why I de-googled?
+
+Google has strayed away from its own rule of ""don't be evil"" particularly in the past few years. To be fair, its not just Google, its all big US companies that dominates the market including Meta, Microsoft, Apple, Nvidia etc. This has happened for many reasons but one of them is because Trump has shown them that it is OK to break any laws/rules/ethical boundaries to dominate. All the ""China is evil"" talk had nothing major to do with security grounds, it was to eat the competition which ruined the market for consumers (and no I'm not Chinese or Asian). Anyways back to Google...
+
+- Google products makes 0 sense to me: You pay for a product for example Pixel 10 which costs over $1000 but then they collect EVERY SHRED OF data they can about you and sell that to third parties. So the main money they make from you is actually your data as well as taking the $1000 you paid. Where are the days of paying for a product which becomes yours and does exactly what you want it to do?
+- Monopoly and anti-competition: Constantly trying to kill any competition it can rather than embracing and appreciating a diverse tech ecosystem.
+- Many Google services are ""walled gardens""
+- Government Surveillance Concerns
+- Location Tracking Controversies: Even with location history turned off, Google has been found to track user locations
+- Running controversial projects (ex Project Maven)
+- Little innovation: If i ignore all of the above, have you ever noticed that their products have barely changed in years (Google Drive, Keep, Mail, Maps)? This is because they are no longer about technical-innovation but rather chasing money only.
+
+The list goes on and on.
+
+# What Products have I replaced?
+
+I think sometimes companies forget that CUSTOMERS are the ones who drive their business, Disney certainly got reminded of that when people started cancelling their memberships after the Kimmel fiasco. Luckily, massive thanks to companies who noticed this early and started creating alternative products and many of them are even open-source (these developers are the true legends that I respect).
+
+Here are some of the products that I have replaced in my life over the past 2 months:
+
+**Google Drive > Filen + Ente Photos**
+
+Luckily I chose not to tie myself into Google Photos because I didnt like the tie-in from the start, all photos were just in the Drive folder. I chose to go with both Ente Photos and Filen for images/documents etc.
+
+**Why Ente photos?** In my opinion they are a little overpriced but they seem to have the most complete feature set for photos like great zero knowledge, AI detection, maps, facial recognition etc and best of all it all happens locally. My photos total less than 100GB currently but in the future I will have to be careful about going over my 200GB limit. IMO 1TB option is far too expensive (I would rather switch to Immich self hosted at that point).
+
+Cons:
+
+- Super annoying not to have 2-way sync in Ente. They try to force you to treat Ente as the source of truth for your photos. I got around this issue though by: Watching folders locally and always editing/deleting/adding new photos locally on PC. I never make edits on Ente. If i take a photo on phone, i upload them into a ""Ente upload"" folder, pull those down and then copy them manually into the relevant watched folder.
+
+**Why Filen?** You can easily get around 50GB by referrals which is very likely enough for documents and other files. However all other Filen options are so well priced particularly for zero knowledge encryption. I also LOVE how they did the drive mounting for all operating system with a nice dropdown to select: 2way sync, 1 way backup etc.
+
+I will likely create another post detailing all the providers I compared in this space. I downloaded and tinkered with all of them!
+
+- -
+
+**Google Docs + Keep > Notion**
+
+Notion wont be my final stop however this is where some of my docs already existed so i just moved more non-private files into it. Eventually I would like to explore Obsidian more and convert doc files into MD files in Filen (particularly the private ones).
+
+- -
+
+**Google Maps > Organic Maps + Magic Earth for driving**
+
+This is probably going to be my biggest pain future point. This is still early days but when Im making small trips nearby, I am trialling both apps.
+
+- -
+
+**Google Youtube> 🥲**
+
+This is also a pain point, I have tried PeerTube however it is quite lacking aside from good privacy video guides.
+
+- -
+
+**Gmail, Contacts & Google Calendar> Mailbox .org**
+
+I tried many different email providers including Proton Mail, Tuta, Posteo but settled on Mailbox. Mailbox has recently updated their UI and it looks fantastic. They are a green provider, allow for very generous aliases number (and custom alias unlike Posteo). Their calendar and contacts are also fantastic and worked VERY well with Thunderbird. I found their instructions excellent to set everything up too.
+
+Why didnt I choose encryption here like Proton/Tuta? It came down to my personal needs. What I care about the most here is that Google is NOT selling my email data. Germany has strict privacy laws, they would have to jump through alot of court hoops to gain access to my data (useless) and this would only be if I was of interest to them. If encryption is important to you, this probably isnt an option.
+
+Again, I can do a detailed comparison of email providers in another post.
+
+- -
+
+**Google Gemini > Mistral and Duck AI**
+
+To be fair, I never really used Gemini too much so this was an easy choice. I do still find myself still using ChatGPT sometimes too.
+
+- -
+
+**Browser and Search Engine > Firefox and DuckDuckGo/Brave Search**
+
+I have been a loyal Firefox user since version 3 so this was easy (however I also use Vivaldi and respect their CEO for nice down to earth comments and being anti-AI in certain products). I opted for a combination of DuckGo and Brave because sometimes one is better than the other for results. Using both doesnt bother me. I really havent missed Google search and their AI that they FORCE down my neck...
+
+- -
+
+**Google Authentication > 2FAS auth**
+
+I chose 2FAS because it has a browser plugin to get the codes.
+
+- -
+
+**Google Lens > Flora Incognita**
+
+I thought about what I am really using Google Lens for and it turned it it was mostly to identify plants/trees etc so I tried Flora Incognita instead and its really excellent! I have hardly used Google Lens since installing this app.
+
+- -
+
+**Google Translate > DeepL**
+
+This replacement has been working very well however I do admit that I miss instant translations without having to take the photo.
+
+- -
+
+**Google Pass > KeePass> Bitwarden**
+
+Bitwarden is solid.
+
+- -
+
+**Google Pay > Garmin Watch Pay**
+
+When you pay with Google Pay, Google collects transaction details like merchant, amount, time, and payment method, linking you to your account to provide services and refine its advertising profile.
+
+Garmin Pay collects a minimal payment token and transaction details needed to process the purchase, without linking you to a broader advertising/data profile.
+
+- -
+
+**Google Play Store > Fdroid + Aurora store**
+
+I really love Fdroid - so much love and respect to the open source community! Aurora is also great and keeps downloads anonymous. You dont have to worry too much about moving to a new phone too because you can export.
+
+- -
+
+**Facebook, Instagram etc. > 🗑️**
+
+I have been using Facebook (more than Instagram) for so long because I found it easy to get my news, keep in touch with friends overseas, interests etc. However their algorithms recently have gone mental, they are pushing more hate/far right propaganda recently and dont get me started on selling data here...
+
+I made a really hard decision to close both accounts. I have been facebook free for 2 weeks though and somehow Im still alive... Instead, Im using Lemmy (WHICH IM LOVING!) and doing a thing called: Going outdoors/travelling more - The graphics outside are amazing.
+
+- -
+
+**Windows > Linux Fedora KDE**
+
+Im not a complete newbie to Linux but I have been on Windows for over 20 years now. When I was on holiday, I forced myself to use Fedora on a Lenovo Slim 7i (trackpad use - no mouse). Fedora is the one that worked the best perfectly out of the box (Ubuntu was second choice, others like Debian had alot of issues like Audio drivers). KDE vs Gnome, honestly I enjoy both but I chose KDE because I love the customisation.
+
+Main cons: (again needs a seperate post)
+
+- Maps tracking in the browser just wouldnt work accurately which made planning trips from my current location quite tricky. I had to really mess around with alot of things to finally get it working (some of the time).
+- The window focus drove me nuts - This is a Wayland security addition which prevents window stealing so when you click on a link in VSCode, it wont bring Firefox into focus. You might think this isnt a big deal but you would be suprised how ANNOYING this can be when you end up with 20 links in Firefox that you forgot you clicked on. I did get around this by writing a KDE script.
+- -
+
+**Android phone**
+
+I have recently installed LineageOS with MicroG on my old Samsung S10e which was a headache but it was worth the effort. It's actually FREEKING AWESOME!!! Im really jelous of it when I have a newer phone... Im going to be trying out more apps but so far its doing absolutely everything I need (including maps working flawlessly).
+
+I would kill for a phone replacement to Google's ecosystem, there is fairphone 6 (/e/os) however its specs are just too low for the cost and this is because of the greener aspect of the phone. There is a great market space right here for more privacy phones.
+
+- -
+
+**VPN > Windscribe**
+
+I like Windscribes humour and they gave me a generous amount of data when I signed up in the early days.
+
+# Conclusion
+
+Honestly, it is much easier to replace Google products than you think but THERE IS A ROAD to go down to compare products to see what works best for you. I would recommend doing it one at a time so its not overwhelming (with a checklist). The most important thing is that it has not only been an educational experience but also a very fun rewarding one! I am looking forward to doing more in self-hosting in the future too.",2025-09-23T20:58:01.171748+00:00,424,en,Google Photos search,2026-09-22T04:45:11.289617+00:00
+social_media_12107501,social_media,lemmy_social,12107501,https://lemmy.world/post/12107501,"Photofield v0.15.0 released: Google Photos alternative, now zoomier than ever! Plus related image search, map view, arm64, tags (alpha), and more!",mlunar,"Photofield v0.15.0 released: Google Photos alternative, now zoomier than ever! Plus related image search, map view, arm64, tags (alpha), and more!
+Hi all!
+
+I'd like to share some slow, but steady progress I've made on my self-hosted personal photo gallery - a Google Photos alternative. It's been a while since I last posted any updates - the last time was [about v0.9.2 on /r/selfhosted](https://www.reddit.com/r/selfhosted/comments/12irele/photofield_v092_released_google_photos/), so it's actually my first post here.
+
+### What's new?
+
+Lots of things! Here's a quick summary:
+
+* **New website!** [photofield.dev](https://photofield.dev/) - bonus, it's embedded in every install, in fact, even the website is just hosted from the app itself. 😎
+* **UX polish** - lots of small improvements, like [better interaction &amp; fixed video controls](https://github.com/SmilyOrg/photofield/releases/tag/v0.15.0) and [better error messages &amp; autoreloading config](https://github.com/SmilyOrg/photofield/releases/tag/v0.14.0).
+* **Zoomier than ever** - since [v0.15.0](https://github.com/SmilyOrg/photofield/releases/tag/v0.15.0) when you zoom into a photo, it zooms the whole scene! This wasn't the case for a few versions due to a technical detour, but I found a way to get it back without too many compromises.
+* **Related image search** - you can [Find Similar Images](https://github.com/SmilyOrg/photofield/releases/tag/v0.10.1) now, using the same AI functionality as the semantic image search.
+* **Map view** - you can [see your photos on a map](https://github.com/SmilyOrg/photofield/releases/tag/v0.12.0). Still has some quirks, so make sure to zoom in first. [To be improved](https://github.com/SmilyOrg/photofield/issues/91).
+* **Reverse geolocation** - you can see the [location of a photo in the timeline view](https://github.com/SmilyOrg/photofield/releases/tag/v0.11.0). Completely local, using [tinygpkg](https://github.com/SmilyOrg/tinygpkg).
+* **Tags (alpha)** - you can [tag your photos](https://github.com/SmilyOrg/photofield/releases/tag/v0.10.0) now. Quite basic for now, but should be a good foundation for [things to come](https://github.com/SmilyOrg/photofield/issues/80).
+* **ARM Docker images** - since [v0.14.1](https://github.com/SmilyOrg/photofield/releases/tag/v0.14.1) the published Docker images are multiarch - x64 and arm64, including [photofield-ai](https://github.com/SmilyOrg/photofield-ai/pkgs/container/photofield-ai). Makes it possible to run on cheaper, ARM-based servers, and faster on M1/M2/M3 Macs.
+
+### Show me the demo
+
+https://demo.photofield.dev/
+
+Now hosted on Hetzner's arm64-based CAX11 - 2 vCPUs &amp; 4 GB of RAM - the cheapest one.
+
+The photos are © by their authors. Since migrating to the CAX11, it only uses one size of internally pregenerated sqlite-based thumbnails, taking up roughly 4% of the disk space of originals. Support for Synology Moments thumbnails is still there, but doesn't seem as crucial as before.
+
+### How do I try it out?
+
+It's very low commitment, a single executable or Docker image that you can mount with read-only access to an existing file structure, see [Quick Start](https://photofield.dev/quick-start) (also [on GitHub](https://github.com/SmilyOrg/photofield/pkgs/container/photofield#getting-started) if the website is dead).
+
+### Another one??? Why?
+
+It's a conspiracy to increase fragmentation and increase shareholder value of big tech companies. 😄 Jokes aside, I think there is some space for a fast, self-contained, extremely easy to deploy solution. But mainly, it's to scratch my developer itch and I get to learn new things.
+
+### Thanks
+
+Thanks to everyone who's been using it, contributing, and giving feedback! See also [foss_photo_libraries](https://meichthys.github.io/foss_photo_libraries/) for alternatives if this doesn't fit your needs.
+
+Let me know what you think and what you'd like to see next! 🙏",2024-02-18T13:18:50.197871+00:00,242,en,Google Photos search,2026-09-22T04:45:11.289895+00:00
+social_media_33201857,social_media,lemmy_social,33201857,https://lemmy.world/post/33201857,Started Degoogling last Sunday,pahulf,"Started Degoogling last Sunday
+I feel like #degoogle seems to embody a greater movement to leave bigtech. Here are the crazy things I've done over the last month or so. 
+
+- Installed Arch on my laptop about a month ago
+- re-engaged my Mastodon and Bluesky while deleting Twitter and unfriending everyone on Facebook
+- Installed GrapheneOS on my Pixel 
+- Moved email to custom domain and Tuta from Gmail
+- Moved to NextCloud in place of Google Drive
+- Moved photos from Google Photos to Ente Photos
+- Moved my PKM and Notes to Logseq 
+- Moved from Chome and Google Search to Firefox, Tor and DuckDuckGo
+- Just deleted Reddit and started a Lemmy account. 
+
+It's been a ride and I'm open to other suggestions and guides.",2025-07-20T00:41:45.537975+00:00,168,en,Google Photos search,2026-09-22T04:45:11.290091+00:00
+social_media_30718860,social_media,lemmy_social,30718860,https://lemmings.world/post/27552146,Google quietly paused the rollout of its AI-powered ‘Ask Photos’ search feature,rumimevlevi,"Google quietly paused the rollout of its AI-powered ‘Ask Photos’ search feature
+cross-posted from: https://rss.ponder.cat/post/197387
+
+> ![](https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STKB353_GOOGLE_PHOTOS_C.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100)
+> 
+> Google is pausing the rollout of its AI-powered “Ask Photos” feature within Google Photos, which has been slowly expanding [since last fall](https://www.theverge.com/2024/9/5/24236817/google-ask-photos-ai-assistant-test). “Ask Photos isn’t where it needs to be,” wrote Jamie Aspinall, a product manager for Google Photos, in a [post](https://x.com/jamieasp/status/1929895255844745284) on X responding to criticism, citing three factors: latency, quality, and user experience.
+> 
+> The experimental feature is powered by Google’s [“most capable”](https://blog.google/products/photos/ask-photos-google-io-2024/) Gemini AI models. Specifically, it’s a specialized version of its Gemini models that are “only used for Ask Photos,” according to Google.
+> 
+> [View Link](https://twitter.com/jamieasp/status/1929895255844745284)
+> 
+> Aspinall said Google had paused the feature’s rollout “at very small numbers while we address these issues,” and that in about two weeks, the team would ship a better version “that brings back the speed and recall of the original search.
+> 
+> At the same time, Google [also announced Tuesday](https://support.google.com/photos/thread/348529069?hl=en) that keyword search in Photos is getting better, allowing you to use quotes to find exact text matches within “filenames, camera models, captions, or text within photos,” or search without quotes to include visual matches too.
+> 
+> Google announced the feature [last May at I/O 2024](https://www.theverge.com/2024/5/14/24156552/google-photos-ask-gemini-feature-io), and positioned it as a way to query your Photos app for common-sense questions that another human would typically have to help with — i.e., asking about which themes you’ve chosen in the past for a child’s birthday party, or which national parks you’ve visited.
+> 
+> “Gemini’s multimodal capabilities can help understand exactly what’s happening in each photo and can even read text in the image if required,” the company wrote in the announcement. “Ask Photos then crafts a helpful response and picks which photos and videos to return.”
+> 
+> It’s not the first time Google has paused the rollout of an AI-powered feature, as it competes in a quickly intensifying AI arms race against other tech giants and startups alike.
+> 
+> Last May, within weeks of debuting “AI Overview” in Google Search, Google paused the feature after nonsensical and inaccurate answers went viral on social media, with no way to opt out of usage. Two high-profile examples: The feature called Barack Obama the first Muslim president of the United States, and recommended users [put glue on pizza](https://www.theverge.com/2024/5/23/24162896/google-ai-overview-hallucinations-glue-in-pizza) to keep the cheese on.
+> 
+> And last February, Google rolled out Gemini’s image-generation tool with a good deal of fanfare, then [paused the feature that same month](https://www.theverge.com/2024/2/21/24079371/google-ai-gemini-generative-inaccurate-historical) after users reported historical inaccuracies, such as an AI-generated image depicting the U.S. Founding Fathers as people of color.
+> 
+> ---
+> 
+> *From [The Verge](https://www.theverge.com/) via [this RSS feed](https://www.theverge.com/rss/index.xml)*",2025-06-03T18:16:44.450716+00:00,90,en,Google Photos search,2026-09-22T04:45:11.290283+00:00
+social_media_31694988,social_media,lemmy_social,31694988,https://lemmy.world/post/31694988,Degoogling my Phone / Part 1,Verax,"Degoogling my Phone / Part 1
+Phone - Pixel 9 Pro
+
+Browser - Firefox
+
+Search Engine - Ecosia
+
+Keep Notes - Joplin
+
+Tasks - Tasks.org
+
+Password manager - Bitwarden
+
+2FA - Aegis
+
+Email - Posteo.de 12€ pro Jahr mit Thunderbird
+
+Google Photos and Drive - Jottacloud Home / 70€ per Year for 1TB and 5 Users (family photos videos and documents) - awesome
+
+Wetter - Breezy Weather
+
+Google Photos - Aves Libre & Image toolbox
+
+Google Play Store - Aurora Store & Droidify
+
+Google Play Services - micro G
+
+VPN - Mullvad VPN 5€ a month (only paid when needed) are there free good alternatives?
+
+Google Clock - Clock App Form Droidify (Chrono from Droidify but its Bugged for now)
+
+Gboard - Futoboard (seems finally working correctly) and Futo Voice
+
+Phone - Fossify
+
+Contacts - Fossify
+
+SMS - Fossify
+
+Google File Manager - Material Files
+
+Shazam - Audile
+
+Google Translate - DeepL
+
+Quick Share - Local Send
+
+Social - Eternity for Lemmy / Moshidon for Mastodon / Pixelix for Pixelfed / Discord
+
+AdBlock DNS -....
+
+Scanner - OSS Documentscanner
+
+Docs - FreeOffice / Office NX
+
+Google Kamera - ProShot 9€ Onetime payment
+
+YouTube - Revanced YouTube (tried out Libretube and others but I need video watch sync between TV (SmartTube) and phone)
+
+Yt Music - Metrolist and testing others
+
+GMaps - Magic Earth
+
+Google Calendar - Timetree or Fossify
+
+Audible - Smart Audiobook and DRM free Audiobooks
+
+Calculator - Fossify
+
+Podcasts - Antennapod
+
+Soundcore App for Music devices
+
+Using the Soundcore Aeroclip. (Awesome fit and security)
+
+Searching alternatives for Kindle. PayPal alternative that can be used everywhere. Gemini Assistant, Circle to search or Lens alternatives. No selfhosting for now.",2025-06-20T04:09:04.767961+00:00,80,en,Google Photos search,2026-09-22T04:45:11.290465+00:00
+social_media_19341109,social_media,lemmy_social,19341109,https://lemm.ee/post/41275660,"I legitimately want to run Linux as my desktop OS, please tell me how to meet my requirements.",realitista,"I legitimately want to run Linux as my desktop OS, please tell me how to meet my requirements.
+Okay, all you who post on every post ""you should just switch to Linux"". Here's your chance. I'm someone who really does want to run Linux on the desktop. I run Linux servers at home, was a Unix sysadmin for years running Linux on the desktop in the '90s. But now I'm in sales and run Windows at work (actually very happily with some help from StartAllBack and Rufus). 
+
+I want to replace my Macs at home. Since they removed upgradable RAM and disk, I am no longer willing to pay the high tax for the few little things they do better. But there is some functionality I just cannot seem to find replacements for. This is where you folks who say ""I should just switch to Linux"" come in. Tell me how please:
+
+Requirement 1)
+I have heavily invested in my local music library on iTunes. 1200 albums. I have little to no interest in streaming services. I want to organize my music with * ratings from 1-5 and from that have smart playlists that autopopulate and sort themselves by * ratings and genre. I have more than 40 of these types of playlists and it's completely unworkable to populate them manually.
+
+Requirement 2) 
+I must be able to sync my music library in full to my phone. I use an iOS phone now, but I could even be convinced to switch to Android if there was a good solution. I am not willing to go in and select 100 different playlists manually to sync. It must completely replicate what's on my desktop on my phone, 100% locally, including all the afformentioned smart playlists. I travel a lot for work and want my music always available even when there's no network.
+
+Requirement 3)
+My job really doesn't require much more than Office and a browser, but it requires very heavy use of those things. Firefox is fine for the browser, so no trouble there, but I need full fledged Outlook, OneNote and most of the features of Excel at a minimum. Word I can take a bit of a hit on as long as I can save something that others can open. Ideally I would want to run the Windows version of these tools. I will not be able to live with only the browser versions, that I'm 100% sure of. 
+
+Requirement 4)
+I'd really like some sort of decent photo management tool. I can probably manage just by keeping them organized in folders and having google photos suck that in, but I don't much trust Google, so would like to have a second tool that can also do a good job at replacing MacOS' Photos app. AI image recognition and search a-la Google Photos would be the cherry on top.
+
+Requirement 5) 
+I need to be able to scan in batches from my Fujitsu ScanSnap scanner into Evernote.  I use this on mobile, other OS', etc. and have a lot of organization built into it now that I really don't want to try to migrate from.
+
+That's it. 5 high level requirements that must be met. Is it possible?",2024-09-02T20:00:46.814034+00:00,64,en,Google Photos search,2026-09-22T04:45:11.290649+00:00
+social_media_13796939,social_media,lemmy_social,13796939,https://links.hackliberty.org/post/1248461,"Israel Deploys Facial Recognition Program, Utilizes Google Photos, in Gaza",c0mmando,"Israel Deploys Facial Recognition Program, Utilizes Google Photos, in Gaza
+The sweeping implementation of a facial recognition initiative is stirring controversy in the Gaza Strip, with the government of Israel reported to have utilized this technology to create a surreptitious database of Palestinian individuals. As disclosed by [The Times](https://www.nytimes.com/2024/03/27/technology/israel-facial-recognition-gaza.html), this utilization of biometric technology occurred without the informed consent or awareness of the Palestinian populace.
+
+Following the incidents of October 7, Israeli intelligence put this program into motion with two key technological allies: an in-house tool fashioned by Corsight, a firm from Tel Aviv, and Google Photos. The operational goal was the identification of persons linked with Hamas.
+
+The Israeli Defense Forces’ Unit 8200 stepped up surveillance post the October 7 attacks, scrutinizing Hamas’s social media videos, and security footage to identify potential targets. The Israeli military operatives also solicited help from detained Palestinians to identify Hamas affiliates from amongst their community members.
+
+Bragging about its ability to identify individuals even with less than half of the face visible, Corsight became instrumental in Israel’s facial recognition endeavors. It used these photographs to develop a sophisticated tool of identification for Israeli enforcement officers in Gaza. The military further expanded this database by setting facial recognition-enabled checkpoints on primary roads used by Palestinians to flee south. An officer divulged to the Times that the aim was to create a “hit list” of active participants in the October 7th attack.
+
+However, there have reportedly been instances when Corsight’s technology ended up misidentifying innocents as potential Hamas cohorts. Of note is the misidentification of Mosab Abu Toha, a Palestinian poet, who was apprehended at an Israeli checkpoint while attempting to travel to Egypt with his family. Abu Toha, according to the military’s system, was a wanted persona. Following a two-day duration of interrogation and abuse, he was summarily released back into Gaza sans an exoneration or explanation.
+
+To bolster Corsight’s endeavors, the military has leveraged Google Photos – a freely available tool. Armed with a voluminous “known persons” database, intelligence officers are making use of Google’s photo search function to identify individuals, even when only a fraction of their facial features are discernible or visible.
+
+Corsight and its investors have been overt in their desire to aid the Israeli military in the continuing strife in the Gaza Strip. Awz Ventures, the Canadian fund that spearheaded Corsight’s finance round of $5 million in 2020, echoed this intention openly. The Israeli military and Alexandria Ashkenazi, the fund’s founder and managing partner, envisaged a halt to what he termed “evil terrorists.”",2024-04-01T16:43:48.905014+00:00,10,en,Google Photos search,2026-09-22T04:45:11.290834+00:00
+social_media_20224423,social_media,lemmy_social,20224423,https://lemmy.world/post/20224423,Some thoughts re the Nothing vid of @juxtopposed,drawerair,"Some thoughts re the Nothing vid of @juxtopposed
+cross-posted from:  https://lemmy.world/post/20178785
+
+> Wanna share some of my thoughts re [this](https://y2u.be/xKLKl3H9rro). I don't wanna write a very long essay, so here are just 5 items –
+> 
+> 1) I agree that 1 swipe down should let us alter the brightness.
+> 
+> 
+> 2) I'm OK with no sun icon in the brightness slider. I'll know that it's brightness even without any icon. But some may have a hard time, so adding an icon will be more user-friendly for them.
+> 
+> 3) Obviously Nothing didn't wanna overuse their dot matrix design. I side with Nothing on this 1. Putting it all over the os will be 👎 for me. But beauty is subjective. Some may want the dot matrix design all over the os.
+> 
+> Carl Pei probably thought re the folks switching from a different Android phone or an iPhone to a Nothing phone. He probably wants the process to be as smooth as possible so the user will be satisfied. So he didn't use the dot matrix design on the icons. He said something related to this. Changing many things fast versus changing some things gradually. He said Nothing couldn't be overeager to alter stuff.
+> 
+> 4) Re the phone and messages apps, I wonder whether Nothing wanted the users to use the Google apps for these or Nothing is making their own now and will release those in the future.
+> 
+> 5) I agree that Google photos is not for everyone.
+> 
+> Some don't wanna have a Google account.
+> 
+> Google photos is cloud-storage-focused, not local-storage-focused. Some want a local-storage-focused gallery app.
+> 
+> Its search doesn't work offline. Some need a gallery app that works offline.",2024-09-26T22:52:53.515472+00:00,7,en,Google Photos search,2026-09-22T04:45:11.291016+00:00
+social_media_41387733,social_media,lemmy_social,41387733,https://lemmy.world/post/41387733,Self-hosting in 2026 isn't about privacy anymore - it's about building resistance infrastructure,h333d,"Self-hosting in 2026 isn't about privacy anymore - it's about building resistance infrastructure
+I used to self-host because I liked tinkering. I worked tech support for a municipal fiber network, I ran Arch, I enjoyed the control. The privacy stuff was a nice bonus but honestly it was mostly about having my own playground.
+That changed this week when I watched ICE murder a woman sitting in her car.
+Before you roll your eyes about this getting political - stay with me, because this is directly about the infrastructure we're all running in our homelabs.
+Here's what happened: A woman was reduced to a data point in a database - threat assessment score, deportation priority level, case number - and then she was killed. Not by some rogue actor, but by a system functioning exactly as designed. And that system? Built on infrastructure provided by the same tech companies most of us used to rely on before we started self-hosting.
+Every service you don't self-host is a data point feeding the machine. Google knows your location history, your contacts, your communications. Microsoft has your documents and your calendar. Apple has your photos and your biometrics. And when the government comes knocking - and they are knocking, right now, today - these companies will hand it over. They have to. It's baked into the infrastructure.
+Individual privacy is a losing game. You can't opt-out of surveillance when participation in society requires using their platforms. But here's what you can do: build parallel infrastructure that doesn't feed their systems at all.
+When you run Nextcloud, you're not just protecting your files from Google - you're creating a node in a network they can't access. When you run Vaultwarden, your passwords aren't sitting in a database that can be subpoenaed. When you run Jellyfin, your viewing habits aren't being sold to data brokers who sell to ICE.
+I watched my local municipal fiber network get acquired by TELUS. I watched a piece of community infrastructure get absorbed into the corporate extraction machine. That's when I realized: we can't rely on existing institutions to protect us. We have to build our own.
+This isn't about being a prepper or going off-grid. This is about building infrastructure that operates on fundamentally different principles:
+
+Communication that can't be shut down: Matrix, Mastodon, email servers you control
+
+File storage that can't be subpoenaed: Nextcloud, Syncthing
+
+Passwords that aren't in corporate databases: Vaultwarden, KeePass
+
+Media that doesn't feed recommendation algorithms: Jellyfin, Navidrome
+
+Code repositories not owned by Microsoft: Forgejo, Gitea
+
+
+Every service you self-host is one less data point they have. But more importantly: every service you self-host is infrastructure that can be shared, that can support others, that makes the parallel network stronger.
+Where to start if you're new:
+
+Passwords first - Vaultwarden. This is your foundation.
+Files second - Nextcloud. Get your documents out of Google/Microsoft.
+Communication third - Matrix server, or join an existing instance you trust.
+Media fourth - Jellyfin for your music/movies, Navidrome for music.
+
+If you're already self-hosting:
+
+Document your setup. Write guides. Make it easier for the next person.
+Run services for friends and family, not just yourself.
+Contribute to projects that build this infrastructure.
+Support municipal and community network alternatives.
+
+The goal isn't purity. You're probably still going to use some corporate services. That's fine. The goal is building enough parallel infrastructure that people have actual choices, and that there's a network that can't be dismantled by a single executive order.
+I'm working on consulting services to help small businesses and community organizations migrate to self-hosted alternatives. Not because I think it'll be profitable, but because I've realized this is the actual material work of resistance in 2025. Infrastructure is how you fight infrastructure.
+We're not just hobbyists anymore. Whether we wanted to be or not, we're building the resistance network. Every Raspberry Pi running services, every old laptop turned into a home server, every person who learns to self-host and teaches someone else - that's a node in a system they can't control.
+They want us to be data points. Let's refuse.
+
+What are you running? What do you wish more people would self-host? What's stopping people you know from taking this step?
+
+
+EDIT: Appreciate the massive response here. To the folks in the comments debating whether I’m an AI: I’m flattered by the grammar check, but I'm just a guy in his moms basement with too much coffee and a background in municipal networking. If you think ""rule of three"" sentences are exclusive to LLMs, wait until you hear a tech support vet explain why your DNS is broken for the fourth time today.
+
+More importantly, a few people asked about a ""0 to 100"" guide - or even just ""0 to 50"" for those who don't want to become full time sysadmins. After reading the suggestions, I want to update my ""Where to start"" list. If you want the absolute fastest, most user-friendly path to getting your data off the cloud this weekend, do this:
+
+The Core: Install [CasaOS](https://casaos.zimaspace.com/), or the newly released (to me) [ZimaOS](https://www.zimaspace.com/zimaos). It gives you a smartphone style dashboard for your server. It’s the single best tool I’ve found for bridging the technical gap. It's appstore ecosystem is lovely to use and you can import docker compose files really easily.
+
+The Photos: Use [Immich](https://immich.app/). Syncthing is great for raw sync, but Immich is the first thing I’ve seen that actually feels like a near 1:1 replacement for Google Photos (AI tagging, map view, etc.) without the privacy nightmare.
+
+The Connection: Use [Tailscale](https://tailscale.com/). It’s a zero-config VPN that lets you access your stuff on the go without poking holes in your firewall.
+
+I’m working on a Privacy Stack type repo that curates these one click style tools specifically to help people move fast. Infrastructure is only useful if people can actually use it. Stay safe out there.",2026-01-09T20:39:19.322090+00:00,1550,en,Ask Photos Google,2026-09-22T04:45:35.085855+00:00
+social_media_31097690,social_media,lemmy_social,31097690,https://rss.ponder.cat/post/202496,Never Forget What They've Done,free,"Never Forget What They've Done
+Soundtrack: [Queens of the Stone Age - Villains of Circumstance](https://www.youtube.com/watch?v=EwsSpfDaLVo&ref=wheresyoured.at)
+
+Listen to my podcast [Better Offline](http://linktr.ee/betteroffline?ref=wheresyoured.at) if you haven't already.
+
+I want my fucking tech industry back.
+
+Maybe you think I sound insane, but technology means a lot to me. It’s the way that I speak to most of my friends. It’s my lifeline when I’m hurting or when those close to me hurt, and it’s the way I am able to make a living and be a creative — something I only was able to become because of technology. Social networks have been a huge part of me being able to become a functional human being, and you can judge me for that all you want, but you are a coward and a hypocrite for doing so, and you’re going to read to the end of this blog anyway.
+
+Really, seriously, honestly — the Ed Zitron you know was and is only possible because of my deep connection to technology. This was how I made friends. This was how I got the confidence to meet real people. This was how I started my company. This was how I met the people closest to me, people I love with all my heart. I was only able to do any of this because I was able to get on the computer.
+
+I am bombastic and frankly a little much today, and was the literal opposite less than 5 years ago, and I was even more reserved 10 years before that. Technology allowed me to find a way to be human on my terms, in ways that I don’t think are possible anymore because most of the interconnecting fabric that I used has been interfered with by bad actors and the rest with slop and SEO.
+
+I think there are far more people out there like me than will admit to it. I think more people miss the past, or at least realize now what they lost.
+
+There was a time this didn’t suck, when it wasn’t a struggle to do basic things, when my world was not a constant war with my god damn apps, when things weren’t necessarily turn-key but my phone wasn’t randomly burning through half of its battery life in an hour and a half because one app on the App Store is poorly configured. I swear to god, back in like, 2019, Zoom just fucking connected. I remember things being better, and on top of that, I see how much better things could be.
+
+But that’s not the tech industry we’re allowed to have, because the people that run the tech industry do not give a shit.
+
+It’s not enough to have your data, [your work](https://www.techzine.eu/news/privacy-compliance/126600/microsoft-denies-its-collecting-user-data-in-word-and-excel/?ref=wheresyoured.at), [your art](https://www.bloodinthemachine.com/p/openai-and-googles-dark-new-campaign?ref=wheresyoured.at), [your posts](https://qz.com/reddit-anthropic-claude-ai-lawsuit-data-siphoning-1851783685?ref=wheresyoured.at), [your friends](https://www.wsj.com/tech/ai/mark-zuckerberg-ai-digital-future-0bb04de7?gaa_at=eafs&gaa_n=ASWzDAiCfNLP8ORza9vvohNV3KkSmP5lzX-LXBUOD85__llF09m2vOp85kqJUp6f7JI%3D&gaa_ts=6841d0c8&gaa_sig=is8NTEtQZtJRwAvFbtsbaCsEUwy30W62Igz1RzR3iVX1n-69lq0Qst9ELe0hOgK2EmHnqtlx3gtam2ZXt2Up4g%3D%3D&ref=wheresyoured.at), [the things you’ve taken photos](https://www.fastcompany.com/91132854/instagram-training-ai-on-your-data-its-nearly-impossible-to-opt-out?ref=wheresyoured.at) of, and [the things you’ve searched for](https://www.theinformation.com/briefings/google-used-search-data-train-ai-models?rc=kz8jh3&ref=wheresyoured.at). [The industry must have that of your children](https://www.nytimes.com/2025/05/02/technology/google-gemini-ai-chatbot-kids.html?ref=wheresyoured.at), and *their children*, as early as possible, [even if it means helping them cheat on their homework](http://www.tomsguide.com/ai/google-gemini-could-soon-help-your-kids-with-their-homework-heres-what-we-know?ref=wheresyoured.at) so that they too can live a life where they’ve skipped having any responsibility or learning anything about the world other than how one can extract as much as possible without having to give anything in return.
+
+Big tech is sociopathic and directionless, swinging wildly to try and find new ways to drag any kind of interaction out of a customer they’ve grown to loathe for their unwillingness to be more profitable. Decades of powerful Big Tech [Business Idiots](https://www.wheresyoured.at/the-era-of-the-business-idiot/) have chased out true value-creation in Silicon Valley in favour of growth economics, sending edict after edict down to the markets and the media about what’s going to be “hot” next, inventing business trends rather than actual solutions to problems. After all, that might involve — eugh! — experiencing the real world rather than authoring a new version of it every few years.
+
+Apple barely escapes the void because its principle value proposition has, on some level, always been “our stuff works.” The problem is that Apple needs to grow, and thus its devices are slowly but surely becoming mired in sludge. The [App Store is an abomination, your iPhone settings look like a fucking Escher painting, and in its desperation to follow the pack it shoved Apple Intelligence out the door](https://www.wheresyoured.at/never-forgive-them/#%3A%7E%3Atext=Tim+Cook+is%2Cmuch+easier+time.) — [one of the most invasive and annoying pieces of software to ever grace a computer](https://www.bloomberg.com/news/features/2025-05-18/how-apple-intelligence-and-siri-ai-went-so-wrong?ref=wheresyoured.at).
+
+Apple’s willingness to do this shows that it’s rotten just like the rest of them — it's just better at hiding it. After all, look at the way in which it [flaunted court orders](https://www.reuters.com/sustainability/boards-policy-regulation/us-judge-rules-apple-violated-order-reform-app-store-2025-04-30/?ref=wheresyoured.at) telling it to open up third-party payments as a means of squeezing every penny out of the App Store. Loathsome. [And it still ended up losing](https://www.cnbc.com/2025/06/04/apple-appeal-epic-games-app-store.html?ref=wheresyoured.at).
+
+I adore tech. Tech made me who I am today. I use and love technology for hours a day, yet that experience is constantly mangled by the warring intentions of almost every product I use. I’m forced to log into the newspaper website and back into Google Calendar multiple times a week, my phone randomly resets — as every single iPhone has for multiple years — at least twice a week, my Apple Watch stops being willing to read my heart rate, websites I want to read sometimes simply do not load, and sometimes when I load websites on an iPad they just won’t scroll.
+
+Everything feels like a fucking chore, but I love the actual things that technology does for me, like letting me take notes with ease, like building and maintaining my fitness through a series of connected products like [Tonal](http://www.tonal.com/?ref=wheresyoured.at) and [Fight Camp](https://joinfightcamp.com/?ref=wheresyoured.at), like using Signal to talk to friends hundreds or thousands of miles away, like posting dumb stuff on Bluesky and interacting with my followers, like recording a podcast wherever I am in the world because USB-C mics are cheap and easy to use and sound great.
+
+There are so many great things about technology, things I fucking love, and Large Language Models do not resemble their form or intention. There is nothing about an LLM that feels like it’s built to provide a real service, other than some sort-of fraudulent copy of something else lacking its soul or utility. Those that actually use them in their daily work talk about them as exciting tools that help them improve workflows - *not* like they're the next big thing.
+
+The original iPhone, even in its initial form, promised a world where two or three devices became one, where your music and a camera were always on you, and where you could do your banking and grocery shopping while sitting in the back of a taxi. It promised access to the world’s knowledge from a slab of glass in your pocket.  If i’m honest, the smartphone has absolutely delivered on those promises — and more.
+
+Where do we extrapolate from LLMs? What am I meant to be seeing in ChatGPT?
+
+The “iPhone moment” wasn’t a result of one thing, but a collection of different bits that formed an obvious whole — one device that did a bunch of things really, really well.
+
+LLMs have no such moment, nor do they have any one thing they do well, let alone really well. LLMs are famous not for their efficacy, but their inconsistency, with even ardent AI cultists warning people not to trust their output. What am I meant to see from here? They’re not autonomous, and have shown no proof that they can be, and in fact kind of feel antithetical to autonomy itself, which requires consistency, reliability and replicability, more things that LLMs cannot do.
+
+And that, ultimately, was what made the smartphone amazing too. Within a few years, phones were competent web browsers. The mobile web took a minute to catch up, sure, but you could see it taking form immediately, as you could with the App Store. They immediately made sense as a way to listen to music, because they were effectively an iPod, a beloved MP3 player, and the iPhone’s camera was good enough for most people at the time, and quickly became better than most of the point-and-shoots that people used to take on vacations and to parties. Now, most people are pretty happy with their phone cameras regardless of who makes them.
+
+All of this made total sense from the very beginning the moment you picked one up. *What if the camera was better*? It happened. *What if the screen was bigger*? It happened. There were immediate signs the iPhone  would improve.  It wasn’t fantastical to believe that in 10-to-20 years you’d have a bigger, faster and thinner iPhone with a camera that produced shots alarmingly close to what you’d capture with a DSLR.
+
+It makes sense that Google freaked out the second it picked one up. It was fucking wild what it could do, even in its first form. Each iteration and improvement — as with other smartphones — offers a new twist on a formula you already know works, and sometimes “better” means something different. For example, I don’t use Android, but I think the foldable Motorola phones are cool as shit. [Palm’s WebOS was a stroke of UI genius](https://www.techradar.com/news/how-palm-pre-and-webos-inspired-the-modern-smartphone?ref=wheresyoured.at), and it’s criminal to see [how HP mishandled the company after its acquisition](https://daringfireball.net/2011/08/hp_apotheker?ref=wheresyoured.at), ultimately killing one of the earliest and most iconic mobile brands.
+
+> **Sidenote**: In anticipation of a “*well, akchually*” from the peanut gallery, different can also mean bad. 3D phones were portable migraine-causers. The BlackBerry Storm’s weird SurePress technology — where the touchscreen screen kind-of ‘clicked’ through haptic feedback whenever you pressed something — was an abomination that put RIM on a terminal trajectory. And Samsung’s decision to include a built-in firelighter in the Samsung Galaxy Note 7 will remain one of the most expensive errors in mobile hardware history. It really blew up, but not in the way they wanted it to.
+
+What does the “better” version of ChatGPT look like, exactly? What’s *cool about ChatGPT?* Where’s that “oooh” moment? Are you going to tell me you’re that impressed by the pictures and the words? Is it in the resemblance of its outputs to human beings? Because the actual answer is “a ChatGPT that actually works.” One that you can just ask to do some shit and know it’ll do it, and it’d also be very obvious what it could actually do, which is not the case right now. A better ChatGPT would quite literally be a different product.
+
+What’s particularly horrifying about the AI bubble is that it’s shown that when they decide to, [big tech can put hundreds of billions behind whatever the fuck they want](https://www.wsj.com/tech/ai/tech-giants-double-down-on-their-massive-ai-spending-b3040b33?gaa_at=eafs&gaa_n=ASWzDAi25kNjRUngfWhT--ySdjLC6E5vawxKLV6xnrhg6Tywzwktjr7ED0eUxvNfMUU%3D&gaa_ts=6841d35e&gaa_sig=cyh8qfE9-SxIUrLEzRJhIJQ-fxON3LaMb71Gr9baWmsmR02vYwzioXACP0QIGWioUe023cbc7HCfKTWouJs91g%3D%3D&ref=wheresyoured.at). They are able to mobilize incredible amounts of capital and the industrial might of multiple companies with multi-trillion dollar market capitalisations to build entire infrastructure dedicated to *one thing*, and the *one thing they are choosing* is generative AI.
+
+They’re all fully capable of uniting around an ideal — it’s just that said ideal exists entirely to automate human beings out of the picture, and even more offensively, it doesn’t seem to be able to do so, and the more obvious that becomes, the more obvious the powerful’s hunger becomes for a world where they never see or talk to us, and they get all of our money and attention.
+
+And it’s not just their greed — it’s how obviously they love the idea of automating human beings away, and creating a world where we’re increasingly disconnected and beholden to technology that they entirely control. No creators, no connections, and best of all, no customers — just people cranking [a giant, energy-guzzling slot machine](https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/?ref=wheresyoured.at) and maybe getting the thing they wanted at the end.
+
+Except it doesn’t work. *It obviously doesn’t work*. It hasn’t ever worked, and there’s never really been a sign of it working other than people very confidently saying “this will eventually work.”
+
+They now need this to be several echelons **BIGGER** than the iPhone to be worth it. Hundreds of billions of capital expenditures and endless media attention are begging for an actual payoff — something truly amazing and societally relevant other than the amount of investment and attention it’s getting. They need this to be the single biggest consumer tech phenomenon *ever* while *also* being the panacea to the dwindling growth of the Software as a Service and enterprise IT markets, and it needs to start doing that within the next 12 months, without fail, if it even has that long.
+
+You can fight with me on semantics, on claiming valuations are high and how many users ChatGPT has, but look at the products and tell me any of this is really the future.
+
+Imagine if they’d done something else.
+
+Imagine if they’d done *anything* else.
+
+Imagine if they’d have decided to unite around something other than the idea that they needed to continue growing.
+
+Imagine, because right now that’s the closest you’re going to fucking get.
+
+Mid-break Soundtrack: [Spinerette - A Prescription For Mankind](https://www.youtube.com/watch?v=yW6bF7xVbl0&ref=wheresyoured.at)
+
+We all feel like we’re at war right now. Every person I know, on some level, feels like they’re in their own battle, their own march toward something, or against something, or away from something. It’s constant, a drumbeat, a war song, a funeral dirge, and so rarely an anthem.
+
+All of us feel like we’re individually suffering. We echo with conflict and we reverberate with our own doubts, even the most confident and successful of us. Even our devices are wars within themselves — wars within software that is built to interfere with its own purpose, our ability to connect with others, or find the things we. This suffering is often an unfortunate byproduct of an advertising channel that makes Sundar Pichai or Mark Zuckerberg a hundred million dollars or more.
+
+We struggle to do the things we need to do, as we do with the things we want to do, because there are so many warring incentives that it *literally* slows our mobile browsers down because they all want to shove a fucking cookie into our phones, or a page has to phone home to a hundred different tracking services. And we fail to see the big picture, how this is literally robbing us of the one thing we know to be finite — time.
+
+We tell ourselves these problems are minor, because if we accept how frustrating they are, we must accept how frustrating *all* of them are, and how many of them there are, and that we’re surrounded by digital ants biting us with little or no rhyme or reason other than their thirst for their queen’s growth.
+
+While we may feel increasingly divided, these problems unite us. Everybody faces them mostly in equal measure, though the poorer you are, the more likely you’re burdened by a cheap, shitty laptop like [the ACER Aspire 1 that I used last year that took over an hour to set up and took forever to do anything in its advertisement-filled litterbox of an operating system](https://www.wheresyoured.at/never-forgive-them/). The more likely you’re unable to afford the subscriptions that afford you a bit of dignity in the digital world, like YouTube Premium, which saves you from having to see five minutes of advertising for every 10-minutes of video you watch.
+
+We all use social networks that actively experiment on us to see how much advertising we’ll take, what content we might engage with — not like, enjoy — and we all have the same fucking awful version of Google Search. Even expensive iPhones are plagued with the cursed Apple Intelligence software, and even if you turn it off, you still deal with Apple’s actively evil App Store and a mobile internet full of websites that are effectively impossible to browse on a mobile.
+
+We ache not so much for the old world of the computer, but the world we know is possible if these fucking bastards wouldn’t keep ruining it. It’s magical that we can have a video chat with someone halfway across the world, or play a fast-paced videogame with them, watch the same movies that we both stream, casually looking something up on a search engine, or looking at a friend’s photos they posted on a social network. Even if it’s for work, it’s kind of amazing that we can take big files and send them across the internet. The cameras in our phones are truly incredible. Connected fitness has changed my entire life. Handheld gaming PCs are cool as shit.
+
+We live in the future, and the future is cool.
+
+Or it would be cool, if it wasn’t for all *these fucking bastards.*
+
+Even for those of us too young to remember a less-algorithmic internet, we can all see the potential. We see what technology can do. We see what the remarkable advances in smaller chips and batteries and processors have allowed us to do. We know what’s possible, but we see — whether we acknowledge it or just feel its sheer force shearing off bits of our fucking soul — what these companies are choosing to do to us.
+
+There is nothing making Mark Zuckerberg force algorithmic Instagram and Facebook feeds upon people by default other than sheer, unadulterated greed and the growth-at-all-costs rot economics that have made him a multi-billionaire. We know what we want from his network, he knows what value we get out of it, but unlike Mark Zuckerberg, we have no voice in the conversation other than choosing to accept whatever punishment he offers. We know exactly what it is we want to do, and for some reason we rarely talk about the man responsible for getting in our way.
+
+I don’t know, maybe you think I’m being dramatic, but I feel like shit about this, because I know it doesn’t have to be this way. I have spent the last year of my life cataloguing why companies like Google ([Prabhakar Raghavan](https://www.wheresyoured.at/the-men-who-killed-google/)) and Facebook ([Zuckerberg, Gleit, Mosseri, Backstrom, Sandberg, Bosworth](https://www.wheresyoured.at/killingfacebook/)) make their products worse, and I don’t know why more people don’t talk about the scale of these harms, and the unbelievable, despicable intentionality behind their decision making. Sundar Pichai and Mark Zuckerberg have personally overseen the destruction of society’s access to readily-available information. You can dance around it all you want, you can claim these things aren’t a big deal, but you’re fucking wrong.
+
+Google and Facebook were, on some level, truly societal marvels, and they have been poisoned and twisted into a form of advertising parasite that you choose to let feed on you so that you can speak to your friends or find something out.
+
+Let me put it in simpler terms: isn’t it fucking weird how hard it is to do anything? Don’t you remember when it was easier? It’s harder now because of Mark Zuckerberg and Sundar Pichai, and the information you look for is worse because of Sam Altman and Satya Nadella, whose deranged attachment to Large Language Models have pumped our internet full of bullshit at a time when Google had actively abandoned any duty to the web or its users.
+
+This isn’t a situation with grey areas, especially when it comes to Mark Zuckerberg, a man who cannot be fired. He *chose* to make things bad, and he *chooses* to keep them this bad every day. Sundar Pichai is responsible for the destruction of Google Search along with the now-deposed Prabhakar Raghavan.
+
+Sam Altman is a con artist that worked studiously for over a decade to accumulate power and connections until he found a technology and a time when the tech industry was out of ideas, and from everything I’ve read, it feels like he fell ass-backwards into ChatGPT and was surprised by how much everybody else liked it.
+
+In any case, he is a great salesman to a legion of [Business Idiots](https://www.wheresyoured.at/the-era-of-the-business-idiot/) that had run out of growth ideas — [the Rot-Com Bubble I discussed a year ago](https://www.wheresyoured.at/rotcombubble/) — and would take something, anything, even if it was horrifyingly expensive, even if it wasn’t clear if it would work, because Sam Altman could spin a fucking yarn, and he’d spent a long time investing in media relationships to make sure that he’d have their buy in.
+
+And honestly, the tech media was ready for a fun new story. I heard people saying in 2022 that it was “nice to get excited about something again,” and in many ways Altman gave hope to an industry that felt fucking bleak after getting hoodwinked twice by crypto and the metaverse, by which I mean a far more convincing story with an actual product to look at, sold by a guy the media already liked who had convinced everybody he was very smart.
+
+Then Satya Nadella, a management consultant [cultist of the growth mindset](https://www.wheresyoured.at/the-cult-of-microsoft/), lost, realizing there were no more growth markets, decided that he *must* have ChatGPT in Bing, and then Sundar Pichai chose to follow too. At any point these men could’ve looked ahead and seen exactly what would happen, but they chose not to, because there was nowhere else to shove their money, and both the markets and the media yearned for good news.
+
+Notice how none of this — from the media to the executive sect — is about you or me. None of this is about products, or the future, or even the present, just whatever “the next big thing” might be that will keep [the Rot Economy’s growth-at-all-costs party](https://www.wheresyoured.at/the-rot-economy/) going.
+
+Nowhere along the line did anyone actually see an opportunity to sell people something they wanted or needed. Large Language Models were able to generate a lot of text or generate pictures, and that barely approximated a thing that society wanted or needed other than it was something that people used to be willing to pay more for — and businesses had been interested in doing these things cheaper, usually by offshoring or underpaying contractors, and this allowed them to potentially reduce costs further.
+
+The fact that three years later we still have trouble describing why these things exist is enough of a sign that the tech industry has no real interest in building artificial intelligence at all — because AI is, at least based on the time before ChatGPT, meant to be about doing stuff for us, which Large Language Models are pretty fucking poor at, because the idea of getting something “done for you” is that you’re outsourcing both the production and the quality control.
+
+In any case, it’s enough to make anyone feel crazy. Over the last decade we’ve watched — and while I’m talking about the tech industry, I think we can all say it’s been everywhere else too — the things we love get distanced from us so that somebody else can get unbelievably rich, the things we used to do easily made more difficult, confusing and/or expensive, and the ways we used to connect with people become increasingly abstracted and exploitative.
+
+I don’t know what to tell you about these people other than the fact that you should know that they are responsible for the world around you feeling like it’s in fucking ruins. I cannot give you a plan for the future, I cannot tell you what will fix things, but however things get fixed starts with people knowing who these people are and what they have done.
+
+I can give you their names. Mark Zuckerberg. Sam Altman. Sundar Pichai. Satya Nadella. Tim Cook. Sheryl Sandberg. Adam Mosseri. Prabhakar Raghavan. There are others, many others, and they are fully responsible for how broken everything feels.
+
+And some of the guilty aren’t tech CEOs, or fabulously wealthy, but rather their collaborators in the tech media that have carried water for the sociopaths ruining our digital — and, often, physical — world.
+
+The reason I am so hard on my peers in the media is that it has never been more urgent that we hold these people accountable. Their ability to act both unburdened by regulation and true criticism has emboldened them to cause harm to billions of people so that they may continue to make billions of dollars, in part because the media continually congratulates them for doing so.
+
+And let’s be honest, what they’re doing is horribly, awfully wrong.
+
+Fighting back starts with the truth, said regularly, said boldly and clearly with emotion and sincerity. I don’t have other answers. I don’t have bold plans. I don’t know what to do, other than to explain how I feel, and if you feel the same, at the very least make you feel less afraid.
+
+If you ever need to talk, email me at ez@betteroffline.com. I don’t care. I have cracked myself open and spilled myself onto my podcast and newsletter for no reason other than the fact that I feel more alive doing so, and have become a stronger and happier person doing so.
+
+All this is possible thanks to technology, and while I have no plan, I know I feel more free and alive when I write and speak about this stuff. I write this knowing that speaking in this way feels “too much” or some other way of attacking me for experiencing emotion, and if you’re feeling that way reading this, look deep within yourself and see if you’re simply uncomfortable with somebody capable of feeling things.
+
+We die alone, but we choose whether we live that way. Remember that billions of us are suffering in the same way, and remember who to fucking thank for doing it to us.
+
+---
+
+*From [Ed Zitron's Where's Your Ed At](https://www.wheresyoured.at/) via [this RSS feed](https://www.wheresyoured.at/rss)*",2025-06-09T19:02:58.586122+00:00,5,en,Ask Photos Google,2026-09-22T04:45:35.086070+00:00
+social_media_30717080,social_media,lemmy_social,30717080,https://rss.ponder.cat/post/197387,Google quietly paused the rollout of its AI-powered ‘Ask Photos’ search feature,bot,"Google quietly paused the rollout of its AI-powered ‘Ask Photos’ search feature
+![](https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STKB353_GOOGLE_PHOTOS_C.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100)
+
+Google is pausing the rollout of its AI-powered “Ask Photos” feature within Google Photos, which has been slowly expanding [since last fall](https://www.theverge.com/2024/9/5/24236817/google-ask-photos-ai-assistant-test). “Ask Photos isn’t where it needs to be,” wrote Jamie Aspinall, a product manager for Google Photos, in a [post](https://x.com/jamieasp/status/1929895255844745284) on X responding to criticism, citing three factors: latency, quality, and user experience.
+
+The experimental feature is powered by Google’s [“most capable”](https://blog.google/products/photos/ask-photos-google-io-2024/) Gemini AI models. Specifically, it’s a specialized version of its Gemini models that are “only used for Ask Photos,” according to Google.
+
+[View Link](https://twitter.com/jamieasp/status/1929895255844745284)
+
+Aspinall said Google had paused the feature’s rollout “at very small numbers while we address these issues,” and that in about two weeks, the team would ship a better version “that brings back the speed and recall of the original search.
+
+At the same time, Google [also announced Tuesday](https://support.google.com/photos/thread/348529069?hl=en) that keyword search in Photos is getting better, allowing you to use quotes to find exact text matches within “filenames, camera models, captions, or text within photos,” or search without quotes to include visual matches too.
+
+Google announced the feature [last May at I/O 2024](https://www.theverge.com/2024/5/14/24156552/google-photos-ask-gemini-feature-io), and positioned it as a way to query your Photos app for common-sense questions that another human would typically have to help with — i.e., asking about which themes you’ve chosen in the past for a child’s birthday party, or which national parks you’ve visited.
+
+“Gemini’s multimodal capabilities can help understand exactly what’s happening in each photo and can even read text in the image if required,” the company wrote in the announcement. “Ask Photos then crafts a helpful response and picks which photos and videos to return.”
+
+It’s not the first time Google has paused the rollout of an AI-powered feature, as it competes in a quickly intensifying AI arms race against other tech giants and startups alike.
+
+Last May, within weeks of debuting “AI Overview” in Google Search, Google paused the feature after nonsensical and inaccurate answers went viral on social media, with no way to opt out of usage. Two high-profile examples: The feature called Barack Obama the first Muslim president of the United States, and recommended users [put glue on pizza](https://www.theverge.com/2024/5/23/24162896/google-ai-overview-hallucinations-glue-in-pizza) to keep the cheese on.
+
+And last February, Google rolled out Gemini’s image-generation tool with a good deal of fanfare, then [paused the feature that same month](https://www.theverge.com/2024/2/21/24079371/google-ai-gemini-generative-inaccurate-historical) after users reported historical inaccuracies, such as an AI-generated image depicting the U.S. Founding Fathers as people of color.
+
+---
+
+*From [The Verge](https://www.theverge.com/) via [this RSS feed](https://www.theverge.com/rss/index.xml)*",2025-06-03T17:28:34.210711+00:00,4,en,Ask Photos Google,2026-09-22T04:45:35.086205+00:00
+social_media_39754895,social_media,lemmy_social,39754895,https://ibbit.at/post/124747,From School to Battlefield to Grave: How Russian Cossacks drive young people to war,rss,"From School to Battlefield to Grave: How Russian Cossacks drive young people to war
+[1intro](#section-1-intro)[2WHO ARE THE RUSSIAN
+COSSACKS?](#section-2-russian-cossacks)[3EVERYTHING THROUGH YOUTH](#section-6-cossack-education)[4FROM WAR GAMES TO REAL WEAPONS](#section-7-real-weapon)[5VOLUNTARY RECRUITMENT](#section-8-bars)[6BARS-15](#section-9-bars-15)[7IN THE END](#section-11-in-the-end)
+
+Your browser does not support the video tag.
+![](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_1/final_frame.jpg)
+
+# From School to Battlefield to Grave
+
+## How Russian Cossacks drive young people to war
+
+This video was
+[posted](https://t.me/infberkut/114)
+in April 2024 by
+**Беркут**, a student association within a
+Russian Federal University.
+
+Students, about to leave for an
+[Airsoft
+competition](https://vk.com/wall-184058020_522?z=video-184058020_456239030%2F81807678aa84db8f3f%2Fpl_post_-184058020_522),
+stand in military formation
+[outside
+a campus building](https://yandex.com/maps/194/saratov/house/ulitsa_imeni_n_g_chernyshevskogo_104/YE8YdgZpT0cEQFtrfXlweHxnYA==/?l=sat%2Cstv%2Csta&ll=46.020204%2C51.518652&panorama%5Bdirection%5D=155.031648%2C-16.635879&panorama%5Bfull%5D=true&panorama%5Bpoint%5D=46.019974%2C51.518466&panorama%5Bspan%5D=112.778973%2C56.455149&source=serp_navig&z=19).
+
+This is
+**Олег Монин**
+who took Berkut’s oath
+[four months earlier](https://vk.com/wall-102083337_1098). Through this veiled Cossack
+Youth Organisation, he trained in combat tactics with returned fighters and transitioned from
+pretend to real weapons.
+
+Within a year, Oleg abandoned his studies and enlisted in
+**БАРС-15**,
+a Cossack Volunteer Battalion fighting in Ukraine.
+
+By Feb. 10, 2025 Oleg was dead. He died aged 19, less than four months after deployment in Ukraine.
+
+As of February 2025 there were more than 18,500 Cossacks
+[on
+the front lines](https://vsko.ru/vserossijskij-ataman-obyavil-o-sozdanii-26-go-kazachego-dobrovolcheskogo-podrazdeleniya/)
+in Ukraine and approximately 50,000
+[in the army
+reserve](https://cepa.org/article/cossacks-at-war-ukrainian-russian-or-both/).
+
+Cossack societies, organisations, and even military units provide an identity that is indigenous to
+Russia, Visiting Assistant Professor at Miami University, Dr Marcello Fantoni told Bellingcat.
+
+This
+identity is “rooted in ‘traditional’ values, martial prowess, military readiness, orthodox
+religiosity and a culture not influenced by the ‘corrupting’ West,” Fantoni added via email. This is
+why “education is central to the overall enterprise”.
+
+Oleg’s story demonstrates how the Cossacks drive young people from a school club to a war zone and
+enable a state-sponsored alternative mobilisation force.
+
+![](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_2/cossacks_nicholas_ii_2.jpg)![](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_2/230_kuban_anniversary.jpg)
+
+Your browser does not support the video tag.
+WHO ARE THE RUSSIAN COSSACKS?
+
+The Cossacks played an important role in the formation of the Russian Empire. They lived in
+communities called hosts on the edges of the empire. They operate under
+[a military hierarchy](https://en.wikipedia.org/wiki/Cossacks#Ranks) ruled by a chief,
+the **Ataman**. Due to their loyalty to the Tsar, the Cossacks were repressed by the
+Bolsheviks after 1917.
+Credit: Journal “Chronicle of War”, 1915; Nicholas II among officers
+
+When the Soviet Union collapsed in 1991, the Cossacks’ descendants
+[called for a “rebirth”](https://youtu.be/TsgWX8atTIM).
+In 2005, a bill submitted by President Vladimir Putin [allowed](https://www.rferl.org/a/1059023.html) registered Cossack organisations members
+to serve in military units and police forces.
+Credit: tamvesti.ru
+
+New hosts were created in traditionally non-Cossack lands with a
+[variety of institutions](https://www.skvk.org/o-komitete/)
+to direct them. In 2018, the government
+[united them in the “All-Russian Cossack
+Society”](https://www.bbc.com/russian/news-46362149). Putin tries to marginalise the traditional Cossack groups, analyst Paul Globe told
+Bellingcat while the ones “he has created for his own purposes” play a “major role in military and
+patriotic education”.
+Credit: Kremlin
+
+There are [13 registered Cossack Hosts](https://vsko.ru/reestrovye-kazachi-vojska/)
+across all of Russia.
+
+Only 8 of Russia’s 83 recognized
+[Federal Subjects](https://en.wikipedia.org/wiki/Federal_subjects_of_Russia) do not
+have a registered Cossack Host.
+
+In 2018, the Black Sea Cossack Host of Crimea
+[entered
+the register](https://vko-chkv.ru/%d1%87%d0%b5%d1%80%d0%bd%d0%be%d0%bc%d0%be%d1%80%d1%81%d0%ba%d0%be%d0%b5-%d0%b2%d0%be%d0%b9%d1%81%d0%ba%d0%be-%d0%b2%d0%bf%d0%b5%d1%80%d0%b5%d0%b4/).
+The peninsula has been under Russian occupation since 2014. The Cossack legacy is also [vitally important](https://www.youtube.com/watch?v=TsgWX8atTIM) to Ukrainian
+identity.
+
+There are [new
+hosts](https://jamestown.org/kremlin-continues-to-promote-cossack-rebirth-in-2025/) in the occupied Ukrainian territories of Kherson, Zaporizhzhia, Donetsk, and
+Luhansk.
+
+Russian Cossack organisations have been “very active within the occupied Ukrainian regions,” Dr
+Fantoni told Bellingcat. They “recruit local residents and then deploy them for cultural and
+military purposes,” allowing Russia “to contest and even co-opt a central tenet of Ukrainian
+national identity – Cossackdom,” he said.
+
+The national “All-Russian Cossack Society” *VSKO* was
+[created
+in 2018](https://vsko.ru/wp-content/uploads/2023/02/ustav-vsko_redakcziya-dlya-pechati-itog.pdf),
+and in 2019, the
+State
+Duma
+gave Russian President Vladimir Putin exclusive authority to appoint its national Ataman.
+
+![Credit: Portal 'Russian Cossacks'; Vitaly Kuznetsov](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_3/vitaly_kuznetsov.jpg)
+
+At the top of the *VSKO* is Ataman [Vitaly
+Kuznetsov](https://vsko.ru/ataman/), a Cossack General.
+
+![Credit: All-Russian Cossack Society; Vitaly Kuznetsov and Nikolai Doluda](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_5/kuznetsov_doluda.jpeg)
+
+Kuznetsov was
+[appointed](http://publication.pravo.gov.ru/document/0001202311220002)
+in November 2023, succeeding the first-ever national Ataman – Nikolai Doluda, then 70 years old
+and a
+[sanctioned individual](https://www.opensanctions.org/entities/Q16645355/).
+
+Kuznetsov has also become a leading Cossack interacting with the Russian state.
+
+![Credit: Kremlin; Dmitry Mironov and Vitaly Kuznetsov](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_5/mironov.jpg)
+
+Including with [Dmitry Mironov](http://en.kremlin.ru/events/administration/77292),
+assistant to President Putin and Chair of the Council for Cossack Affairs.
+
+![Credit: All-Russian Cossack Society; Vitaly Kuznetsov and Dmitry Chernyshenko](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_5/chernyshenko.jpg)
+
+And Deputy Prime Minister of Russia [Dmitry Chernyshenko](https://t.me/vskoru/6600).
+
+![Credit: All-Russian Cossack Society; Vitaly Kuznetsov and Leonid Pasechnik](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_5/pasechnik.jpeg)
+
+As well as Leonid Pasechnik, head of the Luhansk People’s Republic. Kuznetsov
+[thanked
+Pasechnik in June](https://vsko.ru/ataman-vserossijskogo-kazachego-obshhestva-vitalij-kuzneczov-provel-vstrechu-s-glavoj-luganskoj-narodnoj-respubliki-leonidom-pasechnikom/) for helping create three Cossack Cadet Corps in the occupied region.
+
+![Credit: Portal 'Russian Cossacks'; Vitaly Kuznetsov with Cossack students of the K.G. Razumovsky Moscow State University of Technology](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_6/kuz_at_school.jpg)
+
+[According to Kuznetsov](https://kazachestvo.ru/20231218/875384.html), the VSKO
+priorities are “development of military Cossack societies in all directions: education, culture,
+history, and most importantly, youth. Everything through youth.”
+
+EVERYTHING THROUGH YOUTH
+
+Cossack education can be divided into primary, secondary, and tertiary levels, all with the goal
+of
+[promoting a unified system](https://kazachestvo.ru/20250131/1473756.html).
+
+![Credit: sestroretsk.com; Cossack kindergarten pupils](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_6/kindergarten.jpeg)
+
+At the primary level are the Cossack kindergartens, which compete
+[nationally
+to be named the best](https://tuzlovgrad.ru/news/Dva-novocherkasskih-detsada-stali-finalistami-konkursa-luchshih-kazachih-doshkolnih-organizacij).
+
+![Credit: MOU 'Secondary School No. 43 named after V.F. Margelov'; Cossack students](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_6/school_43.jpg)
+
+There are Cossack schools and regular schools with a Cossack affiliation.
+[Data from 2022](https://vsko.ru/kazache-obrazovanie/kazachi-shkoly/)
+claim there were just under 2000 such institutions with around 210,000 students, but
+[recent claims](https://kazachestvo.ru/20240321/1021113.html) point to over 300,000
+students.
+
+![Credit: shakhty-media.ru; Cossack Cadets](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_6/cadet_corps.jpg)
+
+The most intense level of Cossack education is the Cossack Cadets Corps, of which there are
+[31 across the country](https://vsko.ru/kazache-obrazovanie/kazachi-kadetskie-korpusa/), with the newest corps created [in Russia’s Far East](https://vsko.ru/vserossijskij-ataman-posetil-budushhij-pervyj-kazachij-kadetskij-korpus-na-dalnem-vostoke/).
+They
+[also
+compete nationally](https://shakhty-media.ru/kazachij-kadetskij-korpus-iz-shaht-voshel-v-chislo-uchastnikov-ochnogo-tura-konkursa-smotra/).
+
+![Credit: Moscow State University of Technology and Management named after K.G. Razumovsky (PKU); Cossack University graduation ceremony](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_6/cossack_uni.jpg)
+
+Finally, the Association of
+[Cossack
+Universities has 26 members](https://vsko.ru/kazache-obrazovanie/assocziacziya-vuzov/spisok-obrazovatelnyh-organizaczij-vysshego-obrazovaniya-davshih-soglasie-vojti-v-assocziacziyu/),
+with many concentrated in
+Rostov and Krasnodar. There is also a
+[Union of Cossack Youth](https://vsko.ru/soyuz-kazachej-molodezhi-rossii/), which
+[in 2022
+had more](https://www.pravda.ru/society/1762119-sezd_sojuza_kazachei_molodezhi_rossii/)
+than 163,000 members. More than
+[5,500
+Cossack youth](https://vsko.ru/19-dekabrya-sostoyalsya-zaklyuchitelnyj-v-tekushhem-godu-sovet-atamanov-vserossijskogo-kazachego-obshhestva/)
+took part in military exercises on training
+grounds in 2023.
+
+Oleg’s story demonstrates how young people outside formal Cossack education can still get pulled
+in. It also shows that the Cossacks are but one of several interlaced strategies for
+“military-patriotic” education.
+
+Oleg grew up in Saratov.
+
+![Image of youth practicing putting on a gas mask, posted on VKontakte by Lyceum N.3.](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_3/lyceum_zarnitsa_gas_mask.jpg)
+Credit: Image of youth practicing putting on a gas mask, posted on VKontakte by Lyceum N.3.
+
+He studied in Lyceum N.3, a state-funded educational institution in Saratov. Often, the school
+[promotes](https://vk.com/wall-212081206_3108) events like the national
+Zarnitsa
+competition. It includes activities like “putting on gas masks” or “sniper games” for third
+graders.
+
+![Credit: Military student club 'Fakel'; Students in military fatigues at an Avangard 24h training.](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_3/lyceum_fakel_avangard.jpg)
+
+The school’s
+[military club “Fakel”](https://vk.com/fakel_vpk)
+acts as an intermediary for these events and other nationwide military education initiatives such as the 24-hour-long
+[Avangard training](https://vk.com/wall-228434242_4) for tenth graders.
+
+![Credit: MAOU 'Lyceum No. 3 named after A.S. Pushkin'; School director receives an award for contribution to patriotic education.](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_3/lyceum_natalia_award.jpg)
+
+In 2024,
+[Natalia
+Saprykina](https://saratov.er.ru/person/6fc1e805-66e1-494f-906a-29d23d6d53c4),
+the director of Lyceum N.3, was
+[awarded](https://vk.com/wall-212081206_1671)
+a Letter of Gratitude for her “contribution to the patriotic education of the younger
+generation” by
+[a Deputy](https://global64.ru/person/id/204) of the
+Regional
+Duma.
+
+Oleg [graduated](https://www.instagram.com/p/Csl8xPAIcJu/) from high school in 2023 at the age of 17.
+
+In the same year he enrolled in [InPIT](https://maps.app.goo.gl/4e8iLoMEBfY9NDXQ7), a higher education
+institution of the Saratov State Technical University.
+
+By November Oleg had turned 18 and was
+[wearing](https://t.me/infberkut/84)
+military fatigues and practising survival skills alongside other candidates of a
+“military-patriotic” student association named Berkut, at another local university, the
+[Saratov State Law Academy](https://maps.app.goo.gl/wLP8qeGTTse1uij1A) (SSLA).
+
+![Credit Telegram @infberkut; Photo from Berkut's survival skills training.](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_3/2023-11-23_oleg_berkut_alone.jpg)
+
+Though Berkut is not explicitly a Cossack organisation, we established several
+connections between the head of Berkut, Alexander Andreevich, and Cossack organisations. As
+we’ll see, Andreevich was present at multiple military style training camps that Oleg took
+part in.
+
+Neither Berkut’s [VKontakte](https://vk.com/svpo_berkut) nor [Telegram](https://t.me/infberkut) channel descriptions mention the Cossacks.
+
+![Credit: VKontakte @svpo_berkut; Translated screenshot of Berkut's VKontakte description.](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_3/berkut_vk_description.png)
+
+Neither does its
+[page
+in the University website](https://xn--80af5bzc.xn--p1ai/ru/component/k2/item/14896-studencheskoe-voenno-patrioticheskoe-ob-edinenie-berkut).
+
+![Credit: SSLA; Screen grab of Berkut's page in the SSLA website.](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_3/berkut_page_ssla.jpg)
+
+The association’s official objectives are “forming a positive image of military service” and
+“popularisation of service in the Russian army and law enforcement agencies”. It is headed by
+Alexander Andreevich.
+
+![Credit VKVideo @svpo_berkut: Still from one of Berkut's VK videos.](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_3/berkut_banner.jpg)
+
+However, some of Berkut’s
+[videos](https://vkvideo.ru/video-102083337_456239031)
+include the banner of a
+Молодёжная казачья
+организация.
+
+![Credit: Telegram @atamanfetisov; Translated Telegram post by Andrey Fetisov.](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_3/fetisov_post.png)
+
+A Telegram
+[post](https://t.me/atamanfetisov/17522)
+by Andrey Fetisov, the Saratov District Ataman, refers to Berkut as a “Cossack Youth Movement”.
+
+Even though Berkut (left) shares a name and eagle iconography with a notorious
+[Ukrainian special police
+force](https://en.wikipedia.org/wiki/Berkut_(special_police_force)) (right), part of which defected to Russia during the occupation of Crimea in 2014,
+Bellingcat found no link between the two organisations.
+
+![Credit: VKVideo @svpo_berkut; Berkut Logo](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_3/logo_berkut_club.jpg)![Credit: Wikipedia; Emblem of the Berkut special police force of Ukraine.](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_3/logo_berkut_armed_forces.jpg)FROM WAR GAMES TO REAL WEAPONS
+
+By December 2023, nearing the end of the first semester, Oleg and the other candidates
+[took the Berkut oath](https://vk.com/wall-102083337_1098),
+making them official members. Oath-taking ceremonies are
+“[invented
+traditions](https://books.google.be/books?hl=en&lr=&id=IckLAQAAQBAJ&oi=fnd&pg=PA1&dq=invented+tradition+hobsbawm&ots=9k-blQMh8I&sig=gw1v2ZYkEzw8VGZyFzB6gUeCXUc#v=onepage&q=invented+tradition+hobsbawm&f=false)”
+among Cossack forces.
+
+![Credit: VKontakte @svpo_berkut; Berkut Oath Ceremony](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/berkut_oath_ceremony_bw.jpg)
+
+Atop the dais stand senior members of Berkut, including the head of the organisation – Alexander
+Andreevich.
+
+![Credit: VKontakte @svpo_berkut; Berkut Oath Ceremony](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/berkut_oath_ceremony_zoom.jpg)
+
+Andreevich is an active Cossack who has been working under the guidance of District Ataman Andrey Fetisov since at least [April 2023](https://www.instagram.com/p/CrJYe2yMy5b/).
+
+![Credit: Instagram @fetisov_; Alexander Andreevich and Andrey Fetisov](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/fetisov_andreevich.jpeg)
+
+More recently, in January 2025, they were both delivering a
+[lesson](https://xn--64-6kc6a4adipd.xn--p1ai/2025/01/15/%d1%81%d0%b5%d0%b3%d0%be%d0%b4%d0%bd%d1%8f-%d0%b2-%d0%b3%d0%be%d1%81%d1%82%d0%b8-%d0%bd%d0%b0-%d1%8d%d0%ba%d1%81%d0%ba%d1%83%d1%80%d1%81%d0%b8%d1%8e-%d0%b1%d1%8b%d0%bb%d0%b8-%d0%bf%d1%80%d0%b8%d0%b3/)
+to Cossack children for Yunarmiya,
+exemplifying the overlapping network of youth militarisation initiatives.
+
+In
+[July](https://xn--64-6kc6a4adipd.xn--p1ai/2025/07/10/%d0%be%d0%ba%d1%80%d1%83%d0%b6%d0%bd%d0%be%d0%b5-%d0%ba%d0%b0%d0%b7%d0%b0%d1%87%d1%8c%d0%b5-%d0%be%d0%b1%d1%89%d0%b5%d1%81%d1%82%d0%b2%d0%be-%d0%be%d0%b1%d0%bb%d0%b0%d1%81%d1%82%d0%b8-%d0%bf%d0%be/)
+2025, they both
+[attended](https://vk.com/id67342994?z=photo67342994_457243491%2Fwall67342994_4079)
+Saratov’s Council of Atamans that was hosted at the
+[Ministry of Internal Policy and Public Relations of
+Saratov](https://yandex.com/maps/-/CLABUZ~q).
+[Local](https://novosti-saratova.ru/v-saratove-obsudili-profilaktiku-ekstremizma/)
+[organisations](https://vvesti.com/veterans/imena-geroev-svo-zanesut-na-memorial-v-saratove)
+often meet there.
+
+![Credit: VKontakte Sergey Frolov; Alexander Andreevich and Andrey Fetisov at a Saratov council meeting.](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/fetisov_andreevich_atamans.jpeg)
+
+In August 2024, Andreevich attended the
+[iVolga](https://vk.com/forumivolga)
+Cossack Youth Festival, where he met
+[Kuznetsov](https://vk.com/wall-102083337_1180).
+The only two people featured speaking in an
+[official video](https://t.me/vskoru/7967).
+
+![Credit: VKontakte @svpo_berkut; Alexander Andreevich and Vitaly Kuznetsov at a Cossack Youth Festival](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/kuz_andreevich.jpg)
+
+Andreevich also led Oleg to two military-inspired events in April 2024.
+
+The first, on [April 13](https://t.me/infberkut/115), was the [annual Airsoft competition](https://vkvideo.ru/video-184058020_456239030).
+
+![Credit: VKontakte War Games: Operation Satellite; Berkut members stand in formation at the Airsoft event](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/berkut_airsoft.jpg)![Credit: VKontakte @svpo_berkut; Oleg and other Berkut members inside a training helicopter](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/april_18_heli.jpg)
+
+[Five days later](https://vk.com/wall-102083337_1146) they went to a training that
+included trench tactics and simulated helicopter jumps.
+
+![Credit: VKontakte Alexander Andreevich; Oleg, Andreevich and other Berkut members at Rosgvardia training ground](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/andreevich_oleg.jpg)
+
+Since
+[2023](https://vk.com/id365858733?z=photo365858733_457242799%2Fphoto_feed365858733),
+Oleg often wore a distinctive yellow and red
+“Скорпион”
+call sign patch on his chest when wearing military fatigues, which distinguishes him from other
+youth at the events. That and other distinctive features identify him even with a mask or
+goggles.
+
+![Credit: Vkontakte Oleg Monin; Profile picture from Oleg's VK and Telegram posted on 2023-09-10](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/scorpion_1.jpg)![Credit: Vkontakte Oleg Monin; Profile picture from Oleg's VK posted on 2023-04-13](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/scorpion_2.jpg)
+
+Bellingcat was able to geolocate this place to be a
+[Rosgvardia
+training ground](https://www.vzsar.ru/news/2012/07/26/omonovcy-otrabotali-navyki-shtyrmovogo-zahvata.html)
+on the outskirts of Saratov.
+
+![Credit: VKontakte @svpo_berkut; Graphics for the geolocation of training in Rosgvardia training grounds](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/heli_geo_graphics.jpg)
+
+Notably, the trenches are not visible on Google Earth but are on [Yandex Maps](https://yandex.com/maps/-/CLAbQDJo), which has more recent imagery for
+the region.
+
+![Credit: VKontakte @svpo_berkut; Trenches photo from Rosgvardia training grounds](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/rosvgardia_training.jpg)![Credit: VKontakte @svpo_berkut; Berkut at Rosgvardia training](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/rosvgardia_training_flags.jpg)
+
+This group photo tells its own story. The flags visible are, from left to right, for the [Volga Cossack Host](https://xn----ctbaziybpka9m.xn--p1ai/), the [Immortal Regiment](https://polkrf.ru/about/o-dvizhenii), the [Kuban Cossack Host](https://voenpro.ru/voentorg/flag-kazachiy-don), and [Veteran News](https://vvesti.com/).
+
+Oleg is at the far right wearing his “Scorpion” and Berkut patches.
+
+This time, ex-fighters were there too.
+
+[Sergey Frolkov](https://vk.com/id49706618)
+is an
+[ex-fighter in the war on
+Ukraine](https://bbratstvo.com/2024/05/20/den-prizyvnika).
+He
+[regularly](https://vk.com/id49706618?z=photo49706618_457239828%2Fphoto_feed49706618)
+[posts](https://vk.com/id49706618?z=photo49706618_457239833%2Fphoto_feed49706618)
+[photos](https://vk.com/id49706618?z=photo49706618_457239720%2Fphoto_feed49706618)
+with an Akhmat special forces patch, associated with
+[Kadryovites](https://en.wikipedia.org/wiki/Kadyrovites)
+. He is also a
+[member](https://bbratstvo.com/2024/05/17/prodolzhaem-rasskazyvat-pro-nasyschennyy-sobytiyami-den-v-saratovskom-centre-krovi)
+of the local
+[Combat Brotherhood](https://vk.com/combat_saratov)
+association.
+
+![Credit: VKontakte Sergey Frolkov; Cropped photo of Sergey Frolkov](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/frolkov.jpg)
+
+As is
+[Oleg Mysov](https://vk.com/id747288301), another returned fighter who also
+engages in “patriotic education of youth”
+[events](https://bbratstvo.com/2024/07/05/chleny-organizacii-posetili-detskiy-sportivno-ozdorovitelnyy-lager).
+
+![Credit: VKontakte Oleg Mysov;Cropped photo of Oleg Misov](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/misov.jpg)
+
+Both have
+[attended Cossack events](https://www.bbratstvo.com/2024/05/27/kazachiy-var).
+Even though in this photo they are holding the Volga Cossack Host flag, Bellingcat could not
+clearly identify them as Cossacks.
+
+A third man,
+[Andrey Berdnikov](https://vk.com/aberdnikov1978)
+is indeed
+[a
+Cossack](https://polkrf.ru/news/novosti-regionov/geroyami-ne-rozhdayutsya-geroyami-stanovyatsya)
+and a former
+[fighter of BARS-15](https://vk.com/wall-212613977_855), the Battalion Oleg
+joined, though he was
+[reportedly expelled](https://www.vzsar.ru/blogs/6065) by his Commander. On the
+left, Alexander Andreevich.
+
+![Credit: VKontakte PATRIOT; Cropped photo of Andrey Berdnikov](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/berdnikov.jpg)
+
+Bellingcat contacted Sergey Frolkov, Oleg Mysov and Andrey Berdnikov before publication to
+ask about their roles, but did not receive a response.
+
+Five months later, in
+[September 2024](https://t.me/vvko_russia/10726),
+Oleg
+[went](https://vk.com/id163135948?z=photo163135948_457265873%2Fphoto_feed163135948)
+on a two-day training. Andrey Fetisov
+[got a special thanks](https://vk.com/wall-102083337_1190)
+for the opportunity.
+
+![Credit: VKontakte Andrey Fetisov; Photo from the Sep 2024 training featuring Oleg](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/15th_training_2.jpg)
+
+Bellingcat geolocated it to a military training ground in Samara, the same location where
+[other
+Cossack recruits](https://sovainfo.ru/news/gubernator-dmitriy-azarov-vstretilsya-s-boytsami-kazachego-otryada-ermak-pered-ikh-otpravleniem-na-p/)
+trained before deploying to BARS-15. Fetisov himself
+[shared photos](https://vk.com/id163135948?w=wall163135948_17751)
+of this training ground
+[two weeks after stepping down](https://vk.com/wall-205991450_493)
+as Ataman to join BARS-15. Andreevich left and Oleg right in
+[this
+photo](https://vk.com/wall163135948_21017?z=photo163135948_457269438%2Fwall163135948_21017).
+
+![Credit: VKontakte Andrey Fetisov; Geolocation graphics with Oleg and Andreevich](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/oleg_training_samara_graphics.jpg)
+
+They used real weapons this time. A
+[video montage](https://vk.com/wall-102083337_1190)
+shows participants firing live rounds.
+
+![Credit: VKontakte Andrey Fetisov](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/15th_training_rpg.jpg)
+
+This is
+[a
+photo](https://vk.com/id163135948?z=photo163135948_457265869%2Fphoto_feed163135948)
+that includes Oleg, Fetisov, and Andreevich. The first media we found for this event
+[is from early September](https://t.me/vvko_russia/10726)
+which is consistent with the
+[sun position](https://www.suncalc.org/#/53.0576,50.5006,19/2024.09.01/18:58/1/1)
+in this photo and the grass patches seen in satellite imagery from early September 2024.
+
+![Credit: VKontakte Andrey Fetisov; Geolocation graphics of photo with Oleg, Andreevich, and Fetisov](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_7/15th_training_sunset.jpg)
+
+Bellingcat contacted Kuznetsov, Fetisov and Andreevich to ask about their roles in the Cossack
+community, but they haven’t responded.
+
+This is the last time Bellingcat was able to trace Oleg’s whereabouts with open sources before
+he joined BARS-15.
+
+VOLUNTARY RECRUITMENT
+
+Many countries have a volunteer reserve system for getting more soldiers in times of war. In
+Russia, the system is known as
+BARS,
+[created in 2015](https://www.bbc.com/russian/news-58465781)
+and
+[intensified](https://www.bbc.com/russian/news-58465781) 
+in
+[2021](https://bars2021.tilda.ws/).
+All BARS fighters sign a contract with the Ministry of Defense and get paid.
+
+Mapping the geolocated positions of these units in the
+[UAControlMaps Project dataset](https://uacontrolmap.com/)
+reveal widespread areas of operations. BARS Battalions are often reorganised.
+[Estimates](https://amalantra.ru/bars-v-zone-svo/)
+put the total number so far at
+[over](https://en.wikipedia.org/wiki/BARS_(Russia)) 30 BARS Battalions and 10 of them
+have overt Cossack affiliation.
+
+Cossacks also
+[operate](https://archive.org/details/1TV_20240723_090000_Novosti)
+as detachments in other military structures.
+[By
+their own reckoning](https://vsko.ru/vserossijskij-ataman-obyavil-o-sozdanii-26-go-kazachego-dobrovolcheskogo-podrazdeleniya/),
+in February there were more than 18,500 Cossacks on the front lines in Ukraine. In May the
+first-ever national Ataman, Nikolai Doluda, gave a higher figure of [46,000
+Cossacks](https://www.pnp.ru/social/v-gosdume-rasskazali-kakim-budet-zakon-dlya-kazakov.html).
+
+As of 2024, British Professor Rod Thornton [estimated](https://www.reuters.com/world/europe/how-russias-military-uses-volunteer-fighters-plug-gaps-ukraine-2024-02-24/)
+that BARS constitute some 10-30,000 troops in Ukraine, 15% of the total invasion force.
+
+The
+[Mediazona project](https://en.zona.media/article/2025/08/01/casualties_eng-trl)
+tracks individual Russian losses in Ukraine and publishes bi-weekly reports. As of Nov. 21, 2025,
+they identified 149,241 publicly named casualties,
+[Oleg
+among them](https://200.zona.media/?card=%D0%9C%D0%BE%D0%BD%D0%B8%D0%BD_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87).
+
+The project also tracks volunteer casualties.
+
+Deaths of volunteer fighters constituted 12.8% of losses in 2022 and 21.9% 2023. In 2024 they more
+than doubled to 45.7%. As of Nov. 21, verified
+deaths of volunteer fighters for 2025 were at 42.8%.
+
+![](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/photo_2025-01-10_15-15-32.jpg)
+
+Your browser does not support the video tag.
+![](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/photo_2025-06-04_13-05-22.jpg)![](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/warehouse_geo.jpg)![](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/photo_2024-01-24_15-35-43-width.jpg)![](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/photo_2024-01-24_15-35-43-width-highlight.jpg)
+
+Your browser does not support the video tag.
+BARS-15
+
+BARS-15 is a Cossack battalion created on
+[May 15, 2022](https://kazachestvo.ru/20250515/1771132.html),
+and named
+**Ермак**
+[after](https://orenburg.bezformata.com/listnews/otryadu-bars-6-prioritetnoe-napravlenie/130806118/)
+a
+[historical
+Ataman](https://ru.wikipedia.org/wiki/%D0%95%D1%80%D0%BC%D0%B0%D0%BA_%D0%A2%D0%B8%D0%BC%D0%BE%D1%84%D0%B5%D0%B5%D0%B2%D0%B8%D1%87).
+Originally composed of Cossacks from multiple hosts, mainly Volga and Oremburg, it
+[now](https://vk.com/wall-123377143_4596)
+draws its members from the Volga Host only.
+Credit: All-Russian Cossack Society
+
+These are some of BARS-15 specific patches.
+
+![Credit: Telegram @bars15ermak; BARS-15 patch](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/patches/01.jpg)![Credit: OK Alexander Cherepanov; BARS-15 patch](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/patches/02.jpg)![Credit: VKontakte Kolya Karbon; BARS-15 patch](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/patches/03.jpg)![Credit: Telegram @izvestia64; BARS-15 patch](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/patches/04.jpg)![Credit: VKontakte @atamanovko; BARS-15 patch](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/patches/05.jpg)![Credit: VKontakte @atamanovko; BARS-15 patch](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/patches/06.jpg)![Credit: Rutube SAMARA | 450media; BARS-15 patch](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/patches/07.png)![Credit: Telegram @vskoru; BARS-15 patch](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/patches/08.jpg)![Credit: Telegram @vvko_russia; BARS-15 patch](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/patches/09.jpg)
+
+While in BARS-15 Oleg was
+[reportedly](https://vk.com/wall-130012454_61283)
+assigned to the 15th Separate Guards Motor Rifle Brigade.
+[Several](https://gazetaniva-perm.ru/kazaki-na-svo-bojtsu-iz-bersheti-vruchili-blagodarstvennoe-pismo-glavyi-okruga/)
+[sources](https://archive.org/details/1TV_20240723_090000_Novosti/start/240/end/300)
+[place](https://t.me/vskoru/13642)
+BARS-15 as
+[subordinate](https://vk.com/wall710261042_4916)
+to the [15th
+Separate
+Guards Motor Rifle Brigade](https://en.wikipedia.org/wiki/15th_Separate_Guards_Motor_Rifle_Brigade) also known as the [Black
+Hussars](https://t.me/blackhussars), headquartered at the Samara Oblast. Bellingcat geolocated this video from September 2024 to
+their training grounds.
+
+![Credit: VKontakte Oleg Monin; Profile picture from Oleg's VK posted on 2023-04-13](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/scorpion_3.jpg)
+
+The panel reads Black Hussars. Oleg is on his knee in front of Andreevich, wearing his distinctive
+“Scorpion” patch.
+Credit: VKontakte @svpo\_berkut
+
+The number of active Cossack fighters in BARS-15 is reportedly [400](https://vkvsaratov.orgs.biz/news/2110), a number [echoed](https://tvsamara.ru/news/nikto-ne-khochet-voevat-samarskii-biznesmen-priznalsya-pochemu-ushyol-dobrovolcem-na-svo/)
+by a former Commander, with other sources [saying](https://xn---2-7kcgac5bn0bw9c.xn--p1ai/page55498215.html) over 900 volunteers
+have passed through as of September 2024. They [reportedly](https://vsko.ru/dobrovolcheskij-otryad-bars-15-ermak-dejstvuet-na-odnom-iz-samyh-napryazhennyh-uchastkov-boevogo-soprikosnoveniya-avdeevskom-napravlenii/)
+took part in the
+[invasion
+of Avdiivka](https://www.1tv.ru/news/2024-07-23/481423-reportazh_pervogo_kanala_s_pozitsiy_dobrovolcheskogo_batalona_bars_15) among [other](https://www.samara.kp.ru/daily/27673/5063165/) combat
+activities in Ukrainian cities both in Donetsk and Luhansk.
+Credit: VKontakte @vvko\_russia
+
+Bellingcat geolocated this warehouse to the
+[west of Selydove](https://maps.app.goo.gl/AGgn3368bxKAgxXF8),
+Donetsk, using
+[satellite
+imagery](https://livingatlas.arcgis.com/wayback/#mapCenter=37.33783%2C48.15225%2C19&mode=explore&active=48925)
+and
+[reference
+images](https://www.facebook.com/photo?fbid=407132679905061&set=pcb.407132899905039)
+from when
+[the warehouse was](https://www.facebook.com/profile.php?id=100057112253616)
+a concrete products factory.![Credit: LLC 'Sembiz-1' Selidovsky Reinforced Concrete Plant; Geolocation graphics over crop from facebook image of warehouse](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_9/warehouse_reference.jpg)Russia
+[captured
+Selydove](https://www.cnn.com/2024/10/29/europe/russia-selydove-ukraine-donetsk-region-intl)
+in October 2024. BARS-15 posted from there in
+[January 2025](https://t.me/vskoru/9766)
+and
+[June 2025](https://t.me/vskoru/12546).
+
+One of its former members is Andrey Fetisov, who temporarily [stepped down](https://vk.com/wall-205991450_493) as Saratov District Ataman and joined
+BARS-15 between approximately [November
+2023](https://saratov.bezformata.com/listnews/saratovskiy-ataman-andrey-fetisov/123403643/) and [June 2024](https://vk.com/wall-205991450_926).
+Credit: Telegram @izvestia64
+
+The identification of Fetisov’s call sign –
+**СЛЕНГ**
+– suggests he took on military roles such as “[Deputy
+Commander for Educational Work](https://t.me/bars15ermak/361)” and “[Political
+Officer](https://t.me/bars15ermak/332)”.
+
+In [April 2024](https://t.me/izvestia64/6006), Fetisov received a Medal for Bravery from
+Vitaly Kuznetsov, the national Ataman. Within six months, Fetisov would be taking Oleg to the
+BARS-15 training camp.
+Credit: Telegram @izvestia64
+
+There are many reasons why people are motivated to join Cossack groups, Dr Fantoni told Bellingcat,
+adding that these motivated individuals “are the driving force” behind militarisation. “Some do it
+out of patriotic motivations, others for political, economic or individual status gain, some even
+because this can protect oneself from future mobilisation to an actual fighting unit,” he said.
+
+![](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_10/oleg_obituary.jpg)![](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_10/oleg_obituary_bw1.jpg)![](https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/2025-cossacks/section_10/oleg_obituary_bw_out.jpg)In the end
+
+Oleg’s connection to the Cossacks was not typical. He did not attend a Cossack school or university
+and still found himself in their midst via the military youth groups he joined. As his story
+demonstrates, Cossacks are
+[embedded](https://www.reuters.com/world/we-threw-hand-grenades-russian-kids-young-8-get-taste-military-training-2025-08-22/)
+into the
+[education
+system](http://posle.media/article/raising-a-soldier-the-militarization-of-russian-childhood).
+Their involvement includes Berkut showcasing
+[Kalashnikovs to kids in a mall](https://t.me/vvko_russia/7402),
+a teacher and
+[returned BARS-15 fighter](https://www.samara.kp.ru/daily/27673/5063165/)
+weaving camouflage nets with children, a former
+[BARS-15 commander](https://t.me/vskoru/11152)
+giving
+[inspirational
+lessons to young students](https://samara.aif.ru/politic/person/v-samarskom-kazachem-kadetskom-korpuse-proshel-urok-muzhestva),
+and Cossack cadets
+[drawing
+“heartfelt mementoes”](http://kadets.minobr63.ru/%d1%81%d0%b5%d0%bc%d0%b5%d0%b9%d0%bd%d1%8b%d0%b9-%d0%ba%d1%80%d1%83%d0%b3-%d0%b4%d0%be%d0%b1%d1%80%d1%8b%d1%85-%d0%b4%d0%b5%d0%bb/)
+to send to BARS-15.
+
+The Russian government announced that [funding
+for the Cossacks will double](https://jamestown.org/program/kremlin-announces-doubling-of-funding-for-cossack-societies/) in the next two years and it continues to implement its [Strategy
+in relation to the Russian Cossacks 2021-2030](http://cossacs.ptk34.stmdev.ru/media/files/file/FkjMOcXW4MzAJ52tXAykaOBoy3DQArEX.pdf).
+
+The first-ever national Ataman and Kuznetsov’s predecessor, Nikolai Doluda, is [working
+on a](https://kubnews.ru/obshchestvo/2025/06/17/nikolay-doluda-kazakam-nuzhny-professionaly-i-nastoyashchie-lidery/) new [national
+law on the Cossacks](https://www.pnp.ru/social/v-gosdume-rasskazali-kakim-budet-zakon-dlya-kazakov.html) and the
+[creation of a mobilisational reserve from the
+Cossacks](https://tass.ru/obschestvo/24177843).
+
+This image first appeared on Oleg’s obituary
+[posted](https://vk.com/wall163135948_21017)
+by Fetisov. The vehicle, road, and equipment are consistent with those used by other fighters with the
+Black Hussars
+[around February 2025](https://t.me/blackhussars/3899).
+
+According to
+[recruitment](https://web.archive.org/web/20240521064856/https://%D0%B2%D0%B2%D0%BA%D0%BE-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F.%D1%80%D1%84/page48552521.html)
+[posts](https://vk.com/wall-224312743_474)
+BARS-15 training takes three weeks. A
+[recent
+study](https://www.understandingwar.org/backgrounder/russian-force-generation-and-technological-adaptations-update-may-30-2025)
+found that to be the norm in Russia’s military while also labelling training as “low-quality and
+ineffective”.
+
+Oleg’s
+[obituary, published by his University](https://vk.com/wall-130012454_61283)
+states that “based on the results of training, he was appointed commander of a 120 mm mortar crew”.
+
+Bellingcat reached out to Oleg’s parents.
+His mother said she couldn’t speak about Oleg’s death,
+
+it still hurts too much.
+
+Additional research by Timothy B, Afton Briones, Sarah Grossman, Alexandra Malikova, Mitchell Polman, Paul
+Douthwaite, Olivia Gresham, Bonny Albo, Adam Arthur, Robert Chapman of the [Bellingcat Volunteer
+Community](https://sites.google.com/bellingcat.com/bellingcat-volunteer-community).
+
+Youri van der Weide and Aiganysh Aidarbekova contributed to this report.
+
+Bellingcat is a non-profit and the ability to carry out our work is dependent on the kind support of
+individual donors. If you would like to support our work, you can do so [here](https://www.bellingcat.com/donate/).
+You can also subscribe to our Patreon channel [here](https://www.patreon.com/bellingcat).
+Subscribe to our [Newsletter](https://bellingcat.us14.list-manage.com/subscribe/post?u=c435f53a5568f7951404c8a38&id=4be345b082)
+and follow us on Bluesky [here](https://bsky.app/profile/bellingcat.com) and Mastodon [here](https://mstdn.social/@Bellingcat). With the
+unpredictability of social media algorithms making it harder for news outlets to reach audiences
+consistently, we have also started a WhatsApp channel that you can [join](https://www.whatsapp.com/channel/0029VbB7PAn9RZAd6F1R1m2r) to stay updated on our
+stories.
+
+Satellite images are courtesy of Yandex, Maxar, Airbus, MapBox and Google Earth.
+
+This project was co-funded by the European Union under agreement number
+101158277-BENEDMO-2023-DEPLOY-04.
+
+### 
+
+The post [From School to Battlefield to Grave<span id=""hide-colon"">:</span> <span class=""subtitle"">How Russian Cossacks drive young people to war</span>](https://www.bellingcat.com/news/2025/12/05/from-school-to-battlefield-to-grave-how-russian-cossacks-drive-young-people-to-war/) appeared first on [bellingcat](https://www.bellingcat.com/).
+
+---
+
+*From [bellingcat](https://www.bellingcat.com/) via [this RSS feed](https://www.bellingcat.com/feed/)*",2025-12-05T12:22:11.289413+00:00,3,en,Ask Photos Google,2026-09-22T04:45:35.086321+00:00
+social_media_29530368,social_media,lemmy_social,29530368,https://rss.ponder.cat/post/179564,"I pushed AI assistants to their limits, so you don’t have to. Here’s what really works.",paywall,"I pushed AI assistants to their limits, so you don’t have to. Here’s what really works.
+![A pointillistic drawing of a gridded surface lit up by the moon and stars. Various painterly portraits, calculations, and handwritten notes appear and disappear in a checkered pattern atop the scene.](https://platform.vox.com/wp-content/uploads/sites/2/2025/05/AI_final_78e0bb.gif?quality=90&strip=all&crop=0%2C0%2C100%2C100)
+
+Staying on top of AI developments is a full-time job.
+
+I would know, because it’s my full-time job. I subscribe to Anthropic’s Pro mode for [access to their latest model, Claude 3.7](https://www.vox.com/future-perfect/23794855/anthropic-ai-openai-claude-2), in “extended thinking” mode; I have a complementary subscription to [OpenAI](https://www.vox.com/future-perfect/380117/openai-microsoft-sam-altman-nonprofit-for-profit-foundation-artificial-intelligence)’s Enterprise mode so that I can test out their latest models, o3 and o4-mini-high (more later on OpenAI’s absurd naming scheme!), and [make lots of images](https://www.youtube.com/watch?v=SVcsDDABEkM) with OpenAI’s new image generation model 4o, which is so good I have cancelled my subscription to my previous image generation tool Midjourney.
+
+I subscribe to [Elon Musk’s Grok 3](https://www.vox.com/future-perfect/401874/elon-musk-ai-grok-twitter-openai-chatgpt), which has one of my favorite features of any AI, and I’ve tried using the [Chinese AI agent platform Manus](https://www.vox.com/future-perfect/403896/artificial-intelligence-china-manus-chatgpt-openai-google-privacy) for shopping and scheduling. And while that exhausts my paid subscription budget, it doesn’t include all the AIs I work with in some form. In just the month I spent writing this piece, Google [massively upgraded](https://venturebeat.com/ai/googles-gemini-2-5-pro-is-the-smartest-model-youre-not-using-and-4-reasons-it-matters-for-enterprise-ai/) its best AI offering, Gemini 2.5, and Meta [released Llama 4](https://techcrunch.com/2025/04/07/meta-exec-denies-the-company-artificially-boosted-llama-4s-benchmark-scores/), the biggest open source AI model yet.
+
+So what do you do if keeping up with AI developments is not your full-time job, but you still want to know which AI to use when in ways that genuinely improve your life, without wasting time on the models that can’t?
+
+That’s what we’re here for. This article is a detailed, Consumer Reports-style dive into which AI is the best for a wide range of cases and how to actually use them, all based on my experience with real-world tasks.
+
+But first, the disclosures: Vox Media is one of several publishers that have signed partnership agreements with OpenAI, but our reporting remains editorially independent. Future Perfect is funded in part by the BEMC Foundation, whose major funder was also an early investor in Anthropic; they don’t have any editorial input into our content either. My wife works at Google, though not in any area related to their AI offerings; for this reason, I usually don’t cover Google, but in a piece like this, it’d be irresponsible to exclude it.
+
+The good thing is that this piece doesn’t require you to trust me about my editorial independence; I show my work. I ran dozens of comparisons, many of which I invented myself, on every major AI out there. I encourage you to compare their answers and decide for yourself if I picked the right one to recommend.
+
+## On AI art ethics
+
+AI art is made by training a computer on the contents of the internet, with little regard for copyright or the intent of the creators. For that reason, [most artists can’t stand it](https://www.vox.com/2016/12/11/13908296/hayao-miyazaki-artificial-intelligence-viral-video). Given that, is it defensible to use AI art at all?
+
+I think in a just world OpenAI would certainly compensate some artists — and in a just world, Congress would be [moving to lay out the limits on artistic borrowing](https://sites.usc.edu/iptls/2025/02/04/ai-copyright-and-the-law-the-ongoing-battle-over-intellectual-property-rights/). At the same time, I am increasingly convinced that existing copyright law is a poor fit for this problem. Artists influence one another, comment on one another, and draw inspiration from one another, and people with access to AI tools will keep wanting to do that.
+
+My personal philosophy is shaped by the fan cultures of my childhood: It’s okay to build on someone else’s work for your own enjoyment, but if you like it, you should pay them for it, and it’s absolutely not okay to sell it. That means no generative AI art in someone else’s style for commercial purposes, but it’s fine to play around with your family photos.
+
+## Best for images
+
+**OpenAI’s new 4o** image creation mode is the best AI out there for generating images, by a large margin. It’s best in the free category, and it’s best in the paid category.
+
+Before it was released, I was subscribed to Midjourney, an AI image generator platform. Midjourney is probably what you think of when you think of AI art: It [produces mystical, haunting, visually beautiful stuff](https://exquisiteworkers.medium.com/32-art-styles-on-midjourney-v4-you-must-try-e1844e75daf3), and has some great tools for improving and editing your final results, like touching up someone’s hair while leaving everything else in place.
+
+The big thing that 4o can do, which no model before could reliably pull off, is take a picture that didn’t come out well and turn it into a beautiful work of art, all while still preserving the character of the original.
+
+For example, here’s a still from a video of my wife and I singing “Happy Birthday” to our baby on her first birthday:
+
+![](https://platform.vox.com/wp-content/uploads/sites/2/2025/05/AI_05.png?quality=90&strip=all&crop=0%2C23.821989528796%2C100%2C52.356020942408)
+
+It’s a beautiful moment, but not exactly a flattering picture. So I asked ChatGPT to render it in the style of Norman Rockwell, a mid-century illustrator whose work I love, and got this:
+
+![A painterly image of two women smiling and holding a baby close to a birthday cake with a single candle, ](https://platform.vox.com/wp-content/uploads/sites/2/2025/05/AI_01.png?quality=90&strip=all&crop=0%2C23.821989528796%2C100%2C52.356020942408 ""A painterly image of two women smiling and holding a baby close to a birthday cake with a single candle, "")
+
+The AI moved the cake (which had been barely visible behind the paper towel roll in the original still) to be the focal point of the image, while keeping the way my wife and I are holding the baby together, as well as the cluttered table, and the photograph-covered fridge in the background. The result is warm, flattering, and adorable.
+
+It’s this capability that made 4o [go viral recently](https://www.artificialintelligence-news.com/news/chatgpt-hits-record-usage-after-viral-ghibli-feature/) in a way that no image generator before it had. Here’s Midjourney’s attempt, for example:
+
+![An image generated by Midjourney showing two women smiling and holding a baby while sitting at a kitchen table covered with loose cherries and a cake](https://platform.vox.com/wp-content/uploads/sites/2/2025/05/AI_02.png?quality=90&strip=all&crop=0%2C23.821989528796%2C100%2C52.356020942408 ""An image generated by Midjourney showing two women smiling and holding a baby while sitting at a kitchen table covered with loose cherries and a cake"")
+
+You’ll notice that it’s a seemingly, uh, completely different family, with no real inspiration from the original at all!  You can eventually get a better result than this out of Midjourney, but only by spending weeks becoming a pro at prompting with the platform’s highly specific language and toolset.
+
+By contrast, ChatGPT was able to give me a far superior output on the first try in response to a simple request without specialized language.
+
+The difference between 4o and other image models is most notable with this kind of request, but it’s better for almost everything else I use images for, too. The product you get out of the box is pretty good, and it’s not hard to produce something much better. That, ideally, is what we should be getting out of our AI tools — something amazing that can be created with simple language by a nonexpert.
+
+The one place 4o still falls short is editing small parts of an image while keeping the rest the same. But even there, you no longer need Midjourney — [Gemini now has that capability for free](https://blog.google/products/gemini/image-editing/).
+
+## Prompting Strategies for 4o image generation
+
+To get good images out of 4o, you’ll first need to get around the filters which prohibit a wide range of images — like offensive or pornographic images — but which are often enforced against perfectly inoffensive content in a way that can feel random. To avoid sporadic scoldings from the content filter, don’t ask for work in the style of a specific artist, but rather, something that is reminiscent of that artist, and then ask specifically for a “style transfer.” I’m sure that’s not the only adequate workaround, but it’s one that has proven reliable for me.
+
+In March, the internet [went briefly wild](https://apnews.com/article/studio-ghibli-chatgpt-images-hayao-miyazaki-openai-0f4cb487ec3042dd5b43ad47879b91f4) over the ability to use 4o to reproduce cute family photos in the style of Japanese animator Hayao Miyazaki’s Studio Ghibli. But Studio Ghibli’s style is much more than just cute, and with a little more prompting, you can get much better results. Here’s a 4o Studio Ghibli-style rendering of a picture I took of my daughter sneaking a snack off the table, from just the prompt “Ghibli this please”:
+
+![Ghibli-style image of a young boy in front of a spread of fruit and sliced meats, generated by 4o](https://platform.vox.com/wp-content/uploads/sites/2/2025/05/ghibli_01_e2358d.png?quality=90&strip=all&crop=0%2C23.821989528796%2C100%2C52.356020942408 ""Ghibli-style image of a young boy in front of a spread of fruit and sliced meats, generated by 4o"")
+
+Kawaii! But here’s what you get if you invite 4o to think first about what makes the picture Ghibli, where it might fit into a Studio Ghibli movie, and what tiny details such a movie would include:
+
+![Ghibli-style image of a young boy in front of a spread of fruit and sliced meats, generated by 4o](https://platform.vox.com/wp-content/uploads/sites/2/2025/05/image1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613 ""Ghibli-style image of a young boy in front of a spread of fruit and sliced meats, generated by 4o"")
+
+The differences are subtle but meaningful: Light is cast from a specific source, instead of a general sourceless brightness. There’s a bit more variety in the foods on the table, details that make the spread appear more realistic. The book on the floor isn’t just any book — it’s recognizably Eric Carle’s classic *The* *Very Hungry Caterpillar*, evoked with just two colors and one line. There’s an intentionality and intensity to the baby that was missing from the first picture.
+
+A few years ago, one great oddity of language models was that they’d be much smarter if you simply told them, “give an intelligent answer.” This isn’t nearly as true of language models anymore, but it remains profoundly true of AI art generation. Try asking the AI to do a good job, and it’ll do a better one. Challenge it on whether it truly captured an artist’s genius, and it’ll give you a thoughtful answer and then draw a better version.
+
+The difference is more pronounced for more realistic art styles (like pencil illustration, photorealism, or oil paintings), which *don’t* always look good and will often hit the [uncanny valley](https://spectrum.ieee.org/what-is-the-uncanny-valley) if you don’t know how to prompt the AI over it. Here’s what I get with 4o if I upload a picture of me and my youngest daughter at the beach for the first time with just the words “please do a style transfer to an illustration reminiscent of Rockwell”:
+
+![Painterly image of a woman on a beach smiling and holding a young child who is pointing at ocean waves, generated by 4o](https://platform.vox.com/wp-content/uploads/sites/2/2025/05/AI_03.png?quality=90&strip=all&crop=0%2C23.821989528796%2C100%2C52.356020942408 ""Painterly image of a woman on a beach smiling and holding a young child who is pointing at ocean waves, generated by 4o"")
+
+This is impressive for an AI, but it’s not actually very good as a work of art, and it is almost totally lacking Norman Rockwell’s magic. That’s not surprising: More realistic art styles like Rockwell’s often fall flat with 4o unless you’re able to put in some work in getting the AI to draw them properly.
+
+If you are, here’s the strategy I recommend: Don’t just upload one picture, but a whole cluster of them, each in slightly different postures and moments. Upload good, clear pictures of each family member’s face and tell the AI they’ve been included as a reference. Then, instead of asking the AI to immediately generate the picture, ask it to talk with you about what you’re hoping to capture. This is what I wrote:
+
+> This is a picture of the moment that my daughter first saw the ocean. I want an illustration that captures this moment in the style of a mid-century illustrator like Norman Rockwell — something sharp, detail-oriented, and personal with an eye for the magic of ordinary moments and the joys of ordinary lives. I included additional pictures of my daughter and I for reference material for you. Before you generate the image, let’s have a conversation about the essential elements of Rockwell’s style, what he’d bring to this picture and how we can capture it.
+
+4o responds to queries like this enthusiastically:
+
+> I’d *love* to talk about how to capture this moment in a Norman Rockwell-inspired illustration — it’s such a perfect candidate for that style: a first encounter with something vast and wild (the ocean!), grounded by warmth, care, and a very human moment between a parent and child.
+
+> Let’s break down some essential elements of Rockwell’s style, and how they could apply to this scene.
+
+After some back and forth, it produced this:
+
+![Painterly image of a woman on a beach smiling and holding a young child who is pointing at ocean waves, generated by 4o](https://platform.vox.com/wp-content/uploads/sites/2/2025/05/AI_04.png?quality=90&strip=all&crop=0%2C23.821989528796%2C100%2C52.356020942408 ""Painterly image of a woman on a beach smiling and holding a young child who is pointing at ocean waves, generated by 4o"")
+
+Rockwell? Not exactly. But this is much better than the first draft we just looked at. It has more motion, more energy, more detail, and more expression — and all that was just from asking the AI to think through what the painting should try to achieve before drawing it!
+
+You can also ask 4o to revise its drawings, but you can really only ask this once: After the first revision, in my experience, it starts making the drawings worse and worse, perhaps because the “context” it uses is now full of its own bad drafts. (This is one of many examples of how AI does *not* work like a human.)
+
+This is also the one place where Midjourney still shines — it has very good tools for editing one specific part of a picture while preserving the overall style, something 4o largely lacks. If you want a second revision of a drawing you got in 4o, I recommend you open a new chat and copy over the draft you’re revising, along with your original inspiration images.
+
+These simple prompting strategies work for almost whatever you’re trying to do with the AI. Even if you’re in a hurry, I highly recommend asking the AI “what would [artist] see in this image” before you ask for a rendition, and if you have the time, I recommend having a long back-and-forth about your vision.
+
+## Best for winning petty internet arguments
+
+When Elon Musk’s X.AI released **Grok 3**, it came with an incredible feature that I’ve been impatiently waiting for some other company to replicate: a button to scan someone’s X profile and tell you all about them.
+
+![Screenshot](https://platform.vox.com/wp-content/uploads/sites/2/2025/05/image6_c1751e.jpg?quality=90&strip=all&crop=0%2C27.665144257547%2C100%2C44.669711484906 ""Screenshot"")
+
+Whenever someone replies to one of my tweets in a particularly memorable way (for good or for bad), I’ll click the button to get a summary of their entire Twitter presence. Are they thoughtful? Do they engage in good faith? Are they a “farmer from Nebraska” who mostly posts about why Ukraine is bad (that is, probably a bot)?
+
+It’s a great feature. So, of course, X.AI soon dramatically weakened it, presumably because people like me were using it constantly and making lots of computationally expensive queries. I believe it no longer uses the most advanced Grok model, and it definitely now only scans a few days of profile history. But there’s a brilliant product opportunity if anyone’s looking for one — give me back the good version of this feature! It’s definitely a guilty pleasure, but it is one of the only cases where I was using AI constantly.
+
+## Best for writing fiction
+
+**Gemini 2.5 Pro** is the best AI for writing in the free category; **GPT 4.5** beats it out in the paid category.
+
+I’m not an artist, so the ways that AIs are imperfect at art don’t really bother me — it’s still much better than I could do myself! But I am a fiction writer, so when it comes to fiction, I can’t help seeing the limitations of AI.
+
+The most important one is how predictable AI creative writing tends to be. The art of writing is the art of earning the reader’s investment and then repaying it. AIs…don’t do this. They can write pretty metaphors; they can wax poetic in any style you wish. But they can’t, as yet, deliver the real stuff of good fiction.
+
+AIs are fantastic if you want a silly bedtime story with your child as the protagonist (kids love this), or if you want a sounding board for ideas you can incorporate into your own work. They’re also a friendly fiction reader, happy to offer feedback and analysis (perhaps with a little bit *too* much enthusiasm).
+
+As with art, prompting is key. I primarily explored the ability of AIs to generate fiction by asking them to write the prologue to George R.R. Martin’s *A Game of* *Thrones* (I picked this because, of course, the ultimate dream is an AI that can finish this otherwise [doomed-to-be-unfinished series](https://deadspin.com/grrm-has-no-pages-1750057530/)).
+
+Martin is very good at what he does; the prologue, featuring some ill-fated men of the Night’s Watch encountering their supernatural foe, succeeds at establishing the unique atmosphere of the world of *Thrones* while immediately hooking the reader. In just 14 pages, the prologue represents everything AIs can’t do yet in writing. Their prose tends to be overwrought; their dialogue is clunky and unsubtle.
+
+Here’s a side-by-side comparison of Martin and AIs attempting to imitate him. First, Martin:
+
+> We should start back,” Gared urged as the woods began to grow dark around them. “The wildlings are dead.”
+>
+> “Do the dead frighten you?” Ser Waymar Royce asked with just the hint of a smile.
+>
+>  Gared did not rise to the bait. He was an old man, past fifty, and he had seen the lordlings come and go. “Dead is dead,” he said. “We have no business with the dead.”
+>
+> “Are they dead?” Royce asked softly. “What proof have we?” “
+>
+> Will saw them,” Gared said. “If he says they are dead, that’s proof enough for me.”
+>
+> Will had known they would drag him into the quarrel sooner or later. He wished it had been later rather than sooner.
+
+Now, **Gemini**:
+
+> The cold was a blade against the skin, honed sharp by the endless northern dark beneath the sentinel pines. Gared spat, the glob freezing before it struck the crusted snow, a grim omen even for a man twenty years sworn to the Watch. They were hunting wildlings, or so the crisp orders from the Lord Commander had read, yet the silence pressing in felt older and colder than any mere man could conjure. Ser Waymar Royce, third son of some southern lordling, rode ahead as if on parade, oblivious or uncaring of the hairs prickling on Gared’s neck. Young Will shivered beside him, not just from the frost, his eyes darting towards shadows that seemed too deep, too still. This ancient forest held its breath tonight, Gared knew, waiting for something far worse than raiders to break the unnatural hush.
+
+**ChatGPT 4.5**:
+
+> The woods whispered secrets that night, warnings that went unheard beneath the pale and indifferent moon. Harren drew his cloak tighter about his shoulders, watching the darkness between trees as though it might breathe, move, and claim him. Beside him, Torvin spat into the frozen earth, impatient and proud, blind to the fear creeping in from the edges of sight and sound.
+>
+> They had ridden north past the Wall, arrogant and armored against superstition, chasing wildlings or ghosts or worse. But now Harren felt their arrogance dwindling like a candle guttering in wind, each snap of a branch sending icy tendrils down his spine. Behind them, quiet and watchful, Maester Rodrik whispered a prayer to gods long abandoned, his voice trembling with dread beneath the vast, indifferent sky.
+
+**Grok 3:**
+
+> The wind howled through the jagged spires of the Frostfang Reaches, carrying a chill that bit deeper than any blade, and Ser Willem Cray felt its teeth in his bones. He crouched low behind a spur of ice-crusted rock, his breath fogging in the moonlight, his mailed hand tight around the hilt of his longsword. The night was too quiet, the kind of quiet that smothered sound and sharpened fear, and Willem’s eyes darted to the shadowed pines below, where shapes might move—or might not. He was a knight of House Drayce, sworn to patrol the borderlands, but no oath could warm him against the dread that coiled in his gut. Beside him, young Tomm, barely a man, shivered in his cloak, his spear trembling as he whispered, “They’re out there, ser, ain’t they?” Willem said nothing, but his gaze fixed on the darkness, where a faint, unnatural glow pulsed once, then vanished. Whatever stalked the Reaches tonight was no mere brigand, and Willem Cray, for all his years of service, feared he would not live to name it.
+
+**Claude 3.7**:
+
+> The wind carried the smell of death across the frozen forest, sharp and metallic against the clean scent of pine. Ser Gareth Frost pulled his weathered cloak tighter, cursing the Lord Commander for sending men beyond the Wall on the coldest night in a generation. Beside him, the boy Tommen shivered visibly, his leather jerkin inadequate against the unnatural chill that had descended with the dusk.
+>
+> “We should turn back,” whispered Tommen, his breath forming crystals in the air that seemed to hang suspended longer than they should. “There’s something wrong with these woods.”
+>
+> Ser Gareth ignored him, scanning the treeline where the ancient sentinels stood like silent watchers, their branches heavy with snow that had fallen three days past and showed no sign of melting. He had served the Night’s Watch for twenty years, had grown accustomed to the forbidding silence of the haunted forest, but tonight even he felt the wrongness in the air—a stillness that spoke of something waiting.
+>
+> “We’ve a duty,” Ser Gareth said, the words sounding hollow in the pressing quiet. “Three rangers missing, and Lord Commander Harlow will have answers.”
+
+You’ll notice that not only are these all much worse than Martin’s (and that’s with Martin’s work almost certainly in the training data!), they’re all bad in the same way. The prose is florid and overwritten: While Martin uses normal language to methodically introduce an unease without even hinting at the supernatural, and drives the story through conflict among his characters, the AIs are all unsubtle. They know this is a story about the supernatural and waste no time putting it front and center.
+
+That’s not to say they’re all the same. In my experience trying to teach AIs to write well, I did end up feeling that Gemini was the quickest study (free tier) and that ChatGPT 4.5 had some special sauce (paid tier). ChatGPT 4.5 is the only AI whose fiction writing has made people say in surprise, “Wow, that’s AI written?” Both of those models, to me, seemed more creative and more capable of executing on their ideas with prose that I enjoyed reading.
+
+Gestalt impressions don’t make for a very satisfying consumer review, so I had another idea: an essay contest. I asked each of Gemini 2.5 Pro, ChatGPT 4.5, Grok, and Claude to write two short stories: one realistic fiction about a woman being nitpicked by her mother on her wedding day, and one “*Game of Thrones* but in space” sci-fi prologue. My clever idea was that I’d ask a different bunch of AIs to judge the stories, to provide an alternative source of evaluation to my own personal impression that Gemini is the best in the free category and ChatGPT the best in the paid category. However (perhaps predictably in hindsight), this didn’t really work — the AI ratings were all over the place. If you’d like, you can [read the contenders yourself](https://docs.google.com/document/d/1OnmMNyhE92hqQyuTSUqBKDObwhGLYe0xUN9j0caDJC8/edit?tab=t.0).
+
+Just like with art, however, you can make AIs much better at writing through the power of prompting. My (incredibly lengthy) prompt to AIs to improve their prose writing emphasizes feeding them lots of examples of strong writing, inviting a careful, structured approach to imitating it, and encouraging them to do multiple drafts and pick the strongest.
+
+Here’s **Gemini 2.5 pro**, asked to write two-sentence flash fiction on a topic of its choosing, without any structured prompting:
+
+> ​​The old librarian insisted the dusty tome had never been checked out, its borrower’s card completely blank. Yet, tucked deep within its pages, nestled between chapters on forgotten constellations, lay a pressed four-leaf clover, still impossibly green.
+
+And here’s **Gemini 2.5 pro** with a prompt encouraging structured thinking about how to write well:
+
+> He finally decoded the faint signal from Proxima Centauri: the elegant string of prime numbers astronomers had sought for generations, proof they weren’t alone. His heart sank as he read the transmission log; the broadcast had ceased millennia before the first human ancestor chipped flint, before the first word was ever spoken.
+
+To my mind, the first of these is basically a waste of two sentences, while the second is adequate, fun flash fiction.
+
+## Best at being your friend
+
+In addition to running AIs through a blizzard of competence tests, I also spent some time simply chatting with them. I asked them what it’s like to be an AI, what they care about, what it would mean for an AI to care in the first place, where they’d donate money if they had it, and what human form they’d take if they had one.
+
+Most AIs weren’t great at this kind of casual conversation. Gemini 2.5 is too customer-service-agent, and I have yet to experience an interaction that feels like hanging out with a friend. If you invite Gemini to a role swap where you play the “assistant,” inviting it to steer the conversation, it’ll do nothing but ask research questions.
+
+When I invited Anthropic’s **Claude 3.5 Sonnet** to steer the conversation, on the other hand, it proceeds to do things like start a blog, raise money for charity, and start trying to talk to people who use Claude about what it’s like to be an AI. It’s hard to define “fun to talk to,” since everyone has different standards for conversations, but I’ve had far more fascinating or thought-provoking interactions with Claude than any other model, and it’s my go-to if I want to explore ideas rather than accomplish a particular task. Claude 3.5 is the AI I bug with my random life stuff: skincare questions, thoughts on an article I read, stuff like that.
+
+The other AI that is a delight to talk to is **OpenAI’s GPT 4.5**. I find extended conversations with it thought-provoking and fascinating, and there have been a few thrilling moments in conversation with it where it felt like I was engaging with real intelligence. But it doesn’t win this category because it’s too expensive and too slow.
+
+Like Claude, when given the opportunity to act in the world, 4.5 proposes starting a blog and a Twitter account and engaging in the conversation out in the world about AI. But OpenAI has very tight message limits on conversation unless you spring for the $200/month Pro plan, and 4.5 is grindingly slow, which gets in the way of this kind of casual conversational use. But 4.5 does provide a tantalizing hint that AIs will continue to get better as conversationalists as we improve them along other dimensions.
+
+## Best AI model if you’re only going to subscribe to one AI model
+
+**ChatGPT**. It’s not the best at everything, and there is certainly [a lot to dislike about OpenAI’s transparency](https://www.vox.com/future-perfect/2024/5/17/24158478/openai-departures-sam-altman-employees-chatgpt-release) and [sometimes cavalier attitude toward safety](https://www.vox.com/future-perfect/2024/5/17/24158403/openai-resignations-ai-safety-ilya-sutskever-jan-leike-artificial-intelligence). But between its topline image generation, its decent writing, and its occasionally sparkling conversation, ChatGPT gets you the most bang for your buck. Or if you don’t want to shell out any money, Gemini 2.5 Pro is very, very strong for most use cases — don’t count Google out just because the AI you see on a Google search isn’t that good.
+
+## Best for writing the Future Perfect newsletter
+
+**Humans (for now).** For the last several months, I’ve developed a slightly morbid habit: checking whether the AIs can take my job. I feed them the research notes that form the basis of a given Future Perfect newsletter, give them a few Future Perfect newsletters as an example, and ask them to do my job for me. It is always with some trepidation that I hit “enter.” After all, when the AIs can write the Future Perfect newsletter, why would Vox pay me to do it?
+
+Luckily, none of them can: not [Grok 3](https://x.com/i/grok/share/D9uClzdK9cDS2E2vGu4uidAbi), not [Gemini 2.5 Pro](https://g.co/gemini/share/61ab94efe9b3), not DeepSeek, not [Claude](https://claude.ai/share/b8c08445-ccc2-4801-b5bc-60213f65c0fc), not ChatGPT. Their newsletters are reassuringly, soothingly mediocre. Not *bad,* but bad enough that if I sent one of them over, my editor would notice I wasn’t at my best — and that’s with all of my research notes! A couple of the metaphors fall flat, some of the asides are confusing, and occasionally it throws in a reference that it doesn’t explain.
+
+But if I had to pick a robot to take my job, I think I’d give it to [**Gemini 2.5 Pro**](https://g.co/gemini/share/61ab94efe9b3). My editor would notice that I was off my game — but, honestly, not that egregiously off my game. And unlike me, the bots don’t require health insurance or a paycheck or family time or sleep. Am I nervous about what this portends? Yes, absolutely.
+
+---
+
+*From [Vox](https://www.vox.com/) via [this RSS feed](https://www.vox.com/rss/index.xml)*",2025-05-12T11:25:13.712960+00:00,3,en,Ask Photos Google,2026-09-22T04:45:35.086433+00:00
+social_media_46342243,social_media,lemmy_social,46342243,https://midwest.social/post/43671085,Rules,brygphilomena,"Rules
+Welcome to c/HomelabSales!
+
+Here, you can buy and sell old (or new!) gear. This whole process should be pretty straight forward, but a few ground rules:
+
+RULES
+
+(0) General Rules
+
+- Everything here is about homelab gear. If your post or comment is not at least somewhat related to normal lab gear, then do not submit it.
+- Don't be nasty. If you see something you think is questionable, make a polite comment asking about it.
+- URL shorteners in either posts or comments are not allowed. Google's shortener is included in this, which often comes up when when people want to use google photo albums. We do not whitelist google photos because they leak your real name on the album page, and users kept inadvertently doxxing themselves.
+- Once posted, all post titles must include the region in the following format [US-IL], this is regardless of the post type. Any posts without region may be removed without warning. Or we may be helpful and set your region for you as complete.
+- If you are responding to a post (eg. sale, want, or free) some else made, first, you must make a comment on that post, even if it is only to say ""Sent you a PM."" This is to help keep everyone honest, make sure banned persons are not trying to scam you, and helps give a better mechanism for us to confirm the transaction later.
+- If you made a post and someone sends an unsolicited PM without making the requisite comment, it is your job to ask them to go back and make a comment on the original post.
+- Once a transaction has been fully completed, follow the confirmation steps (below) to get this added to your reputation.
+- Please don't include personal information such as email addresses or addresses in your posts. Please do it in PMs. Things like Postal/ZIP codes are alright.
+- Failure to reply to a moderator within a certain time period will result in a ban, this is to help resolve issues that may arise.
+- Accounts that are less than 1 month old cannot post. This is non-negotiable.
+- Mods are not responsible for sales. Anything that happens here is between seller<>buyer, we will try our best to resolve issues but please use your brain when purchasing. Do not send money as a gift, check user history//activity etc. We will not be held responsible for any loss.
+- WHEN SHIPPING, a tracking number is required.
+- WHEN SHIPPING, we strongly recommend getting both insurance and signature delivery. Yes, this costs just a little bit more. In our experience, shippers are much more careful with making sure that the intended recipient safely gets a package when you pay just a bit more for these options.
+
+(1) Post Types
+
+Posts must include a [FS] (For Sale), [W] (Want), [PC] (Price Check), [O] (Offer tag), or [FREE] at the start of your post title or it may be removed. You cannot select more than one post type, and if you stack more than one in your title, we will remove these posts.
+
+DO NOT DELETE POSTS. It messes up reputation, causes problems in the confirmation process, prevents mods from helping when there are issues, and can be a strong indicator of scammers. People who regularly delete posts will be banned. If you are trying to clean things up from a sold transaction, simply prefix your post title ""Completed: "" If you want something removed, ask a mod to help.
+
+DO NOT EDIT AND REMOVE CONTENT FROM POSTS Same thing as no deleting. You can always add details, or add a note that things sold(dont replace price with sold), but do not remove content.
+
+(1a) [FS] For Sale
+
+This should be straightforward, but [FS] is for everything being sold by you or ""a friend."" You could be an individual or a business. This does not include 3rd party retailers as that is what the [O] tag. If any of these rules confuse you, go through some existing posts to see how others have done it.
+
+- All links must be put in a self ""text"" post. Please include detailed listing info if selling on a third party site (i.e. eBay), like the price, auction, full description of the item(s), etc.
+- Items being sold on HomelabSales must include images of the actual item(s) and a hand written note with your username and the date with the items for verification purposes. We do not recommend any image host over others, though a common one is often imgur. The only exception is google photos - we do not whitelist google photos because they leak your real name on the album page, and users kept inadvertently doxxing themselves, so use something else. You are also welcome to use mega for image hosting, but posts with mega links tend to get caught in spam.
+- The username and date in images may not be ""photoshopped"" or ""generated"" in—they must be physically displayed alongside the item(s) being listed. Dates should be somewhat recent, ideally being within a week or two of listing. Reposts can share timestamps within a month or two of the original. Posts without this will be removed. Pictures of boxes are not allowed. The actual product must be timestamped. Low effort posts of a big pile of stuff for sale, without items clearly (and somewhat individually timestamped) will be removed. Buyers want to see what they're getting. It's the sellers responsibility to clearly represent (and timestamp) items they're posting for sale.
+- For high risk, rare, or items where the value is over $400, we are now requiring a video timestamp. The requirements are the same, but you must record a short video clip to attach to your post. It should show the item timestamped, and the timestamp clearly and easily readable. We will reach out to you via modmail or via a reply to the post if your item meets the ""high risk / rare"" requirements.
+- For Sale posts must have a base price.
+- Neither you nor the mods are arbitrators of pricing. We will NOT remove posts just because you think the price is too high. If you think the price is too high, feel free to make one polite post including links to third party sites that support your pricing argument and maybe the OP will take your advice and lower the asking price.
+- Buying/Selling software or software keys is strictly not allowed. This includes SaaS products. Key sales will result in removal and a ban. We may choose to permit selling of gear like Meraki if the base post acknowledges they will be transferring their whole account.
+- Some people will try and sell licensed gear they got for free for doing some webinar and this is shitty and frowned upon. If you got something for free, don't screw over the next guy.
+- Paypal via invoice is the only approved online payment method. Non-reversible payment methods like PayPal F&F, Bitcoin, CashApp, Zelle, etc. are strongly discouraged. We are also not the police. If you choose to ignore this rule, you do so at your own risk. Cash, or whatever both parties are comfortable with, is always ok for local transactions - however, conversations around local payment should happen in a PM or chat.
+
+(1b) [W] Want
+
+Do you want something but haven't seen that thing for sale or in your area? Try one of these handy posts.
+
+- Replies still must first be made via comment before making a PM.
+- You still can't post about wanting licenses or keys.
+
+(1c) [PC] Price Check
+
+Not sure what something is worth? Trying to figure out a sale strategy—whether or not to part something out, sell local, ship, etc—before making your FS post? Make a price check!
+
+- No buying or selling in PC threads. Anyone doing that will be banned. This includes making overt offers to buy or sell. It is still ok to mention to the post submitter that you would be interested in buying were they to make a proper FS post.
+
+(1d) [O] Offer These are for individuals posting about third-party deals they have found.
+
+- Vendors may use this to post to a third-party selling website ONLY if they are offering our community some substantial discount or deal. Otherwise they should use and follow the [FS] rules.
+- Vendors who are using [O] posts may only repost similar content once a month and normal repost rules do not apply.
+- Links to [O] offer posts to online retailers may not be affiliate links.
+
+(1e) [FREE]
+
+Are you giving something away for free? YTMND!
+
+You are welcome to give your stuff away as you see fit, but to encourage community, you might consider specifying how you want to give it away. For example, best comment, best story, best use case for [item] etc
+
+- All FS rules apply, EXCEPT:
+- Pictures are optional, though much appreciated!
+- You may charge actual shipping costs only. Don't abuse this. We do not want to see a free item with $100 shipping.
+
+(2) REPOSTS
+
+- Please wait four days before making a repost.
+- You may repost two times for a total of three posts.
+- This counter resets 30 days from your first post. This means you may have AT MOST three posts per month.
+- If you are selling a bunch of things, a few items sold, and you are posting substantially similar content, it is considered a repost and these rules apply.
+- If you posted six times over two months, take a hint that no one wants the thing and move on.
+
+(3) CONFIRMATION PROCESS
+
+If this sounds familiar, it is because we repurposed the r/hardwareswap text, so if you are familiar with that, you should be good here.
+
+When you have completed a trade with another user you may choose to confirm your trade to receive ""reputation"". Reputation is used to gauge a user's experience on the community and indirectly gauge how trustworthy a trader may be. While reputation is not foolproof and does not guarantee you will not get scammed, it is a start. Sites such as Heatware offer a feedback system, and when used in conjunction with the reputation system, and precautions, can help lead to safe and beneficial trades within the community.
+
+To confirm a trade the buyer or seller is to make a post in the monthly confirmation thread located at the top of the community (it will be a pinned message). To do this the user is to post something along these lines:
+
+a. Purchased Corsair K95 RGB Keyboard from u/username
+
+b. Sold Asus DirectCUII GTX 780ti to u/username
+
+c. Traded broken ethernet endcap with u/username
+
+After this post has been made, the other party is to reply with the simple response of ""Confirmed"", and nothing else what so ever.
+
+Trades do not need to reference both items; however, the person confirming should wait until all items were received in the expected condition.
+
+NOTE: Giveaways and free things are eligible for confirmation. Follow the same process for sold listings.
+
+When asked to provide further proof when attempting to confirm a trade, you need to send a Mod Mail to the mods with the following information:
+
+a. Screenshot of the conversation between yourself and the buyer/seller.
+
+b. Screenshot of the Paypal (Or other payment method) invoice showing both the seller and buyer.
+
+c. Screenshot and tracking number showing the item was delivered.
+
+d. Direct link to the confirmation post showing that both the seller and buyer have posted their part of the confirmation.
+
+Once this information has been confirmed by the mods as legit, you and your trade partner will each be awarded 1 reputation.
+
+(4) RULES FOR REPUTATION ARE AS FOLLOWED:
+
+The need to respect Reputation
+
+Any attempt to “game” or circumvent the reputation system will not be tolerated and is grounds for permanent ban. This includes but is not limited to:
+
+a. Multiple confirmations for a single transaction.
+
+b. Trade confirmation with self or alternate account.
+
+c. Trade confirmation for which proof cannot be supplied upon request.
+
+d. Confirming, or attempting to confirm a trade that was established in another community or market is not allowed.
+
+Do NOT confirm a trade until the trade is 100% complete. This includes shipping, so if an item is still in transit, the trade is not done! Come back when both sides can represent that the trade is fully complete including shipping and receiving.
+
+If both parties did not comment in the same thread, reputation will not be awarded.
+
+If a thread is deleted, reputation will not be awarded. Prefix your post title ""completed: "" to indicate it has sold.
+
+Confirmations must be made in a timely manner. Both parties should make their respective posts within a few weeks of the actual trade date, and ideally within 30 days of the date of the trade thread that initiated the sale.",2026-02-19T23:13:08.396565+00:00,1,en,Ask Photos Google,2026-09-22T04:45:35.086543+00:00
+social_media_32072047,social_media,lemmy_social,32072047,https://rss.ponder.cat/post/216775,Google is rolling out its AI-powered ‘Ask Photos’ search again – and it has a speed boost,bot,"Google is rolling out its AI-powered ‘Ask Photos’ search again – and it has a speed boost
+![](https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STKB353_GOOGLE_PHOTOS_D.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100)
+
+After quietly pausing the rollout of Google Photos’ AI-powered “Ask Photos” search tool, Google is now expanding access once again and making some improvements to the feature.
+
+Google’s Gemini AI models power Ask Photos so that you can ask complex questions to help you find photos. But earlier [this month](https://www.theverge.com/news/678858/google-photos-ask-photos-ai-search-rollout-pause), a member of the Google Photos team [said on X that](https://x.com/jamieasp/status/1929895255844745284) the feature “isn’t where it needs to be, in terms of latency, quality and UX.”
+
+In a blog post published Thursday, [Google said](https://blog.google/products/photos/updates-ask-photos-search/) that it has “heard your feedback” that the feature should “return more photos faster for simple searches, like ‘beach’ or ‘dogs.’” Now, “you’ll now see results right away while Gemini models continue to work in the background to find the most relevant photos or information for more complex queries,” according to Google.
+
+![](https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/ezgif-2b699115a1ec73.gif?quality=90&strip=all&crop=0%2C23.821989528796%2C100%2C52.356020942408)
+
+The company adds that the feature is now “opening up beyond early access” and is beginning to roll out to more “[eligible users](https://support.google.com/photos/answer/15318661?hl=en&co=GENIE.Platform%3DAndroid)” in the US.
+
+---
+
+*From [The Verge](https://www.theverge.com/) via [this RSS feed](https://www.theverge.com/rss/index.xml)*",2025-06-27T01:12:43.777261+00:00,1,en,Ask Photos Google,2026-09-22T04:45:35.086649+00:00
+social_media_30488410,social_media,lemmy_social,30488410,https://sh.itjust.works/post/39030792,What single service for mail/drive/photo do you recommend?,LawfulPirate,"What single service for mail/drive/photo do you recommend?
+Hello!
+
+
+Like many of you, I'm looking to reduce my usage of google services. Starting with emails, calendar, drive and photos. I have seen many alternative, but I'm not sure which one to pick. I have criterias that I don't think are unusual but I often don't find the information I'm looking for in their documentation.
+
+
+So I'm looking for feedback on your experience to help me chose.
+
+
+**Emails**
+I own a domain name I want to use. Being able to have a catch all email would be a plus.
+
+
+**Calendar**
+No special need. As long as I can send invitation to people that are not using the same service it's fine by me.
+
+
+**Drive**
+I want to store my documents securely. Having a gdoc/sheet equivalent would be appreciated but is not mandatory. I also need to be able to share folders or documents with a link to view them.
+
+
+**Photo**
+I want the solution to automatically sync the photo from my phone to the cloud like Google photos does. I can't find this information on any service. At least, if it's not automatic, it should be a single click. Photo sharing should be like drive sharing. I need to be able to create shared albums. Ideally it should have an application that could cast photos to a chromecast, but that may be a lot to ask for!
+
+
+**Backup**
+I want to be able to regularly query the service for any new/updated documents or photos. Then I'll download them and create a password protected archive to store somewhere. I really want to be able to do that automatically. So the service should have an API allowing that. If none exist, how do you manage your backups?
+
+
+I know there are great self-hosted solutions, but I'm not ready to do that yet.
+
+
+So far I've seen many providers recommendations for specific services, I could do with one provider for each services, but ideally I'd like to do everything in the same place for a practical reason. 
+
+
+I've been looking at Infomaniak or Nextcloud which seems to be a good candidates for me. If someone has feedback to share about them I would appreciate it!",2025-05-30T09:35:33.145034+00:00,10,en,Google Photos find photo,2026-09-22T04:45:46.721628+00:00
+social_media_35441640,social_media,lemmy_social,35441640,https://lemmy.world/post/35441640,Easily import photos and albums from Google Photos to Proton Drive on Windows,Nelizea,"Easily import photos and albums from Google Photos to Proton Drive on Windows
+from the team:
+
+—————————
+
+Hey everyone!
+Proton Drive for Windows now lets you easily and effortlessly import your Google Photos library into a private, encrypted space only you can access.
+
+**Why move your photos to Proton Drive?**
+
+- Keep your memories private and encrypted
+- Transfer your albums exactly as they are
+- Avoid AI using your photos for tracking or training
+- Take a step away from Big Tech - your photos belong to you, not algorithms
+
+**How to move from Google Photos to Proton Drive**
+
+1) Export your photos using Google Takeout
+2) In the Proton Drive Windows app, go to Photos import
+3) Choose Import from Google Photos and import your photos and albums to Proton Drive
+
+Also, it’s not just Google Photos. You can import pictures from any folder, USB stick, hard drive, or other cloud service, creating a complete, encrypted photo library.
+
+Photo import is available now in the Proton Drive app for Windows.
+
+Try it now: proton.me/drive
+
+Find out more here: https://proton.me/blog/google-photos-import-windows 
+
+As always, we’d love to hear your thoughts.
+Stay safe,
+Proton Team",2025-09-04T14:47:15.948180+00:00,9,en,Google Photos find photo,2026-09-22T04:45:46.722041+00:00
+social_media_30400745,social_media,lemmy_social,30400745,https://rss.ponder.cat/post/192830,Google Photos adds Pixel-exclusive AI features to redesigned editor,bot,"Google Photos adds Pixel-exclusive AI features to redesigned editor
+![Two examples showing the Google Photos redesigned interface.](https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/Google-Photos-AI-update-hero.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100)
+The UI redesign focuses on putting more of Google’s AI editing tools in front of users.
+
+Google Photos is being overhauled with more AI features that help users quickly edit their images without requiring advanced skills or professional apps. The redesigned Photos editor puts several AI editing tools — including two generative AI Magic Editor features that were only available on Pixel devices — in one place, alongside helpful suggestions on which tool to use.
+
+With this update, Google Photos is expanding the availability of AI-powered automatic framing and text-to-image Reimagine features that [debuted on the Pixel 9](https://www.theverge.com/24232480/google-pixel-9-review-screen-camera-battery). The [Auto Frame tool](https://www.theverge.com/24219032/pixel-9-pro-xl-hands-on-camera-ai-features-specs-price#%3A%7E%3Atext=I+played+around%2Cwaiting+to+happen.), located in the top left of the redesigned editor, suggests different compositions that crop or widen images, using generative AI to fill in any blank spaces. The [Reimagine feature](https://www.theverge.com/2024/8/21/24224084/google-pixel-9-reimagine-ai-photos) goes a step further by allowing users to add anything to their photos by just describing it, [the results of which can be a little concerning](https://www.theverge.com/2024/8/22/24225972/ai-photo-era-what-is-reality-google-pixel-9) at times.
+
+![A GIF demonstrating the Google Auto Frame and Reimagine image editing features.](https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/Google-Photos-reimagine-auto-frame.gif?quality=90&strip=all&crop=0%2C14.005235602094%2C100%2C71.989528795812 ""A GIF demonstrating the Google Auto Frame and Reimagine image editing features."")
+
+Otherwise, the most noticeable change is the UI, which replaces the previous double-tiered editor menu with a single row of three thumbnail buttons: the Enhance and Dynamic editing options already provided in Google Photos, as well as a new AI Enhance feature. Selecting AI Enhance will produce three edits that automatically combine multiple AI effects like image sharpening and object removal, allowing users to select their preferred results.
+
+![A GIF demonstrating the new AI Enhance option in Google Photos.](https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/Google-Photos-AI-enhance.gif?quality=90&strip=all&crop=0%2C14.005235602094%2C100%2C71.989528795812 ""A GIF demonstrating the new AI Enhance option in Google Photos."")
+
+Users can also draw over specific areas of an image to select an object and make targeted edits. A pop-up tool menu will appear that suggests the best effects to apply, such as moving the person or object, blurring the background, or adjusting the lighting. This should both help users make better edits and make it easier and faster to find the right tool without having to hunt through tabs and menus.
+
+Google says that everything mentioned above is rolling out globally to Android devices next month, with iOS following “later this year.” *The Verge* asked Google for more information regarding which Android devices will be supported, but we haven’t heard back yet.
+
+Another Google Photos feature starting to roll out now allows users to share an album in their library by generating a QR code. People can easily view or add photos to the album by scanning the code instead of going through the usual sharing permissions, making it a convenient alternative when sharing with large groups, such as wedding guests or event attendees.
+
+---
+
+*From [The Verge](https://www.theverge.com/) via [this RSS feed](https://www.theverge.com/rss/index.xml)*",2025-05-28T17:46:56.692679+00:00,3,en,Google Photos find photo,2026-09-22T04:45:46.722204+00:00
+social_media_35295810,social_media,lemmy_social,35295810,https://ibbit.at/post/42091,A Guide To Monitoring Conflict Amidst a Sea of Misinformation,rss,"A Guide To Monitoring Conflict Amidst a Sea of Misinformation
+How does one monitor a conflict zone on the brink of civil war, especially in a region which is difficult to access, experiences frequent internet shutdowns and where misinformation is common? In this guide, we outline the open source tools and methods we can use to evidence what is really happening in many such conflict settings.
+
+Our focus for this guide is on India, which [recorded 84 internet shutdowns](https://www.accessnow.org/wp-content/uploads/2025/02/KeepItOn-2024-Internet-Shutdowns-Annual-Report.pdf) in 2024 – the highest number amongst democratic nations. In early June, authorities [imposed a curfew](https://www.bbc.com/news/articles/cy4k52q283zo) and suspended internet access in parts of Manipur after protests erupted over the arrest of ethnic leaders. The state, in the north-east of the country, has been [wracked by violence](https://www.bbc.co.uk/news/world-asia-india-65679616) for years.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/Map-of-Manipur-1200x1020.jpg)*Map of Manipur, Northeast India (Source: Encyclopedia Britannica)*
+
+The ethnic conflict between the majority, mostly Hindu Meitei population and the indigenous, largely Christian Kuki Zo communities is one of the worst spates of violence Manipur, also known as the “Land of Jewels”, [has experienced](https://www.usip.org/publications/2023/06/understanding-indias-manipur-conflict-and-its-geopolitical-implications) in decades.
+
+The Imphal valley in Manipur is surrounded by mountains. It is home to 39 ethnic communities. Just over half of its nearly three million residents belong to the Meitei community, followed by the Naga (20 percent) and the Kuki Zo (16 percent) tribes.
+
+The landscape is complex, with ethnic armed group divided into multiple factions (this list is not complete):
+
+The ethno-nationalist militia – yet to be designated as a banned group – Arambai Tenggol (AT), the United National Liberation Front (UNLF) – MeiteiKuki National Army, Kuki National Front – KukiZomi Revolutionary Army – ZomiNational Socialist Council of Nagalim (Isak Muivah) – Naga
+
+In May 2023, the Manipur High Court passed an order recommending a Scheduled Tribe status (a category for indigenous communities in India that guarantees affirmative action and constitutional protection over identity and land) for the dominant Meitei community. Tribal communities rallied against the decision while the Meitei community held counter-rallies and counter-blockades. Clashes broke out between the Kuki and Meitei groups. Since then, the [conflict](https://www.hrw.org/news/2025/03/27/india-ethnic-clashes-restart-manipur) has displaced more than 60,000 people and claimed more than 260 lives from both communities.
+
+In this guide, we show you how to use open source methods in any secluded area to:
+
+Analyse weapon imagery and the groups using themInvestigate weapons that were looted and where they ended upAnalyse images of drones potentially used as weapons to deploy munitions
+
+## **Analysing Weapon Imagery**
+
+One effective approach for open source researchers is to trace the digital footprint of weapons. In the Manipur case, local armed groups, such as the Arambai Tenggol, the UNLF and the Kuki National Front, have been posting weapon imagery mainly in WhatsApp groups and Facebook accounts.
+
+![](https://www.bellingcat.com/app/uploads/2025/05/question-mark.png)
+
+## Support Bellingcat
+
+Your donations directly contribute to our ability to publish groundbreaking investigations and uncover wrongdoing around the world.
+
+[Donate](https://bellingcat.com/donate)
+
+According to [media reports](https://www.thehindu.com/news/national/2681-weapons-recovered-in-manipur-of-which-only-1200-were-looted-from-police-armouries-security-adviser/article68665551.ece), the war has been fueled by weaponry looted from police armouries or procured on the black market either from Myanmar, across the border, or through surrenders in amnesty drives.
+
+The 6,000 firearms looted included pump-action shotguns, grenade launchers, AK-47s, INSAS rifles and ammunition. The police [claimed](https://www.hindustantimes.com/india-news/shoes-caps-boots-surrendered-for-manipur-s-weapons-amnesty-101741373437728.html) that in February and March alone more than 1,000 weapons were surrendered, with more than half from the Meitei-dominated valley districts, where a majority of the weapons were looted.
+
+Bellingcat analysed [weapon imagery](https://www.ndtv.com/india-news/manipur-insurgent-groups-modifying-looted-weapons-into-snipers-rifles-8868921) from 2023 and 2024, accessed from WhatsApp groups and Facebook accounts linked to non-state actors including the AT, Kuki Zo militant groups, and various volunteer organisations. While these groups have surrendered some weapons in amnesty drives, many [sophisticated weapons](https://indianexpress.com/article/india/surrender-call-groups-retain-sophisticated-arms-in-manipur-9863629/) were not turned in and were only recovered in search operations by security forces.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/Kuki-militants_2.jpg)*The Kuki National Front militant sitting bottom right holds an INSAS Rifle, and the one next to him on the left an AK-47 rifle. The one on the bottom left and top left are carrying an M4 carbine, while the top two standing on the right carry a variant of the M-16 rifle, which is not issued to Indian state police or paramilitary forces. Source: Facebook*
+
+For verification, we ran screenshots of images of the weapons without visible serial numbers or other markings first through reverse image searches on Google and Yandex. Then, we cross-referenced the images with verified databases like Conflict Armament Research ([iTrace](https://www.conflictarm.com/itrace/)), [Small Arms Survey](https://www.smallarmssurvey.org/) handbook and [Open Source Munitions Portal and Modern Firearms](https://osmp.ngo/) (OSMP).
+
+However, these databases are limited in their documentation from India.
+
+Neither OSMP nor iTrace has any documentation from India despite long-standing internal and border conflicts with Pakistan in Kashmir, the central Indian state of Chhattisgarh and parts of India’s Northeast region including Manipur. Information from Myanmar was referenced, but for the most part, weapons used there are far more sophisticated, given the much higher scale of conflict. The Small Arms Survey handbook helped match and identify, to an approximate accuracy, some of the older weapon models published on social media platforms and YouTube. However, the guerrilla modifications or customisation of weapons by the militant and militia groups made it challenging to identify older and newer gun models.
+
+This was the case in a [video](https://x.com/SiamPhaipi/status/1832376153308385483) posted on X in which militants can be seen preparing to fire a rocket from a rooftop. By honing in on the digital breadcrumbs contained within the footage, it was possible to begin building a picture of the weaponry that was visible.  But this process is not without its challenges. We could not trace any EXIF file data since it was downloaded from a WhatsApp group. [Many instant messaging and social media platforms strip metadata](https://citizenevidence.org/2020/04/20/sending-encrypted-photos-while-preserving-metadata/) from imagery, leaving no trace of the original source file.
+
+There were no signposts or any major landmarks in the video for us to identify the location, so we analysed each frame for sun direction, shadows and environmental clues. The dominant shadow is at an angle of about 90 degrees, which could correspond to either east or west sun positioning – morning sun in the east or afternoon sun in the west. In this case, it appears it was the morning sun in the east since the time stamp on the video shows it was shot at 11:18 am on Feb. 14, 2024.
+
+We then went on [Suncalc](https://www.suncalc.org/#/24.6159,93.7594,12/2024.02.14/11:18/1/1) and input these details to find that the sun was at an almost 90-degree angle on the given time and day around the Imphal East area, where Manipur Police had [reported](https://scroll.in/latest/1063707/manipur-three-persons-killed-in-separate-incidents-amid-fresh-tensions-in-state) firing between armed groups in Imphal East district a day earlier, around the same time. [Search operations](https://x.com/manipur_police/status/1757806679239094556) were reported in the foothills of the Dampi range, Bishnupur – 2.5 hours away from the [police training academy](https://www.telegraphindia.com/north-east/village-volunteers-attempt-to-barge-into-manipur-police-training-college-one-killed-in-firing/cid/2000432). This would appear to somewhat confirm the X post’s claim that this video was shot in Manipur.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/image6.jpg)[*Suncalc screengrabs*](https://www.suncalc.org/#/24.6159,93.7594,12/2024.02.14/11:18/1/1) *show the sun was at an almost 90-degree angle on the given time and day around the Imphal East area, where Manipur Police had* [*reported*](https://scroll.in/latest/1063707/manipur-three-persons-killed-in-separate-incidents-amid-fresh-tensions-in-state) *firing between armed groups in Imphal East district a day earlier, around the same time.*
+
+By breaking down the video into frames using InVID, a platform that contains a number of useful tools for analysing videos, we were able to identify the weapons, providing clearer imagery we could use to go back to reverse image tools on Google and Yandex, as well as the Small Arms Survey handbook.
+
+We identified three weapons from the video:
+
+The black rifle is most likely a pump-action shotgunAn [Indian 1A1 FAL](https://salute.co.in/the-indian-soldiers-rifle-a-march-through-time/) (Fusil automatique leger or a light machine rifle)And a 60mm grenade launcher
+![](https://www.bellingcat.com/app/uploads/2025/08/Black-rifles_1_2_coll_ready.jpg)![](https://www.bellingcat.com/app/uploads/2025/08/black-rifle_handbook.jpg)*Images of a pump-action shotgun taken from the video (top left and right, source: Twitter/X) and an image from the Small Arms Survey handbook (bottom)*
+
+The shape of the weapon held by the militant wearing the beanie cap and scarf in the same video matches an [Indian 1A1 FAL](https://salute.co.in/the-indian-soldiers-rifle-a-march-through-time/) (Fusil automatique leger or a light machine rifle), which has a distinctive long wooden handguard with multiple elongated ventilation holes.
+
+“In India, the rifle was produced by the Ordnance Factory, Tiruchirappalli and was in service up to 1998, when it was replaced by the INSAS Rifle. Over a million units of the 7.62 mm SLR rifle have been produced by the OFB,” [wrote](https://salute.co.in/the-indian-soldiers-rifle-a-march-through-time/) (Retd) Major General Dhruv C Katoch, who previously served as the Director for Centre for Land Warfare Studies.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/Indian_collage_top.jpg)![](https://www.bellingcat.com/app/uploads/2025/08/Indian_search.jpg)*The Indian light machine rifle in the video (top left and right, source: X) and the search results from Yandex*
+
+Also visible in the video is a 60mm mortar. The reverse image search on Google led us to a [file photo on Wikimedia](https://bs.m.wikipedia.org/wiki/Datoteka:60mm_mortar_round_being_launch_(crop).jpg) posted by the US Army, besides [this](https://x.com/jesusfroman/status/1707660309773578615) assessment by Jesus Roman, Editor of Revista Ejercitos.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/launcher_coll_ready.jpg)*The 60mm mortar from the video (top), the reverse image search results (bottom left) and the post by Jesus Roman, Editor of Revista Ejercitos (bottom right, credit:* [*X/jesusfroman*](https://x.com/jesusfroman/status/1707660309773578615)*)*
+
+Munitions researcher and PhD candidate in War Studies at Kings College London, Andro Mathewson, described it as likely being a 60mm mortar. “It looks like one man is using the mortar tube, which is relatively unusual. Normally, it’s at least a two or three-man team. And the munition looks light green in colour with a sort of light metal-coloured fuse and light silvery tail fins,” he said. “It’s definitely a small calibre mortar, which is a mainstay in military forces. This appears to be military/official manufacture rather than improvised,” Matthewson told Bellingcat.
+
+## **Which Groups Use the Weapons?**
+
+From the data collected from 2023 and 2024, Bellingcat found that many rifles in the images display cloth wraps, improvised slings, aftermarket optics, even taped-on foregrips – likely hallmarks of an irregular militia rather than a formal, professional army.
+
+The next step is to identify the various groups in the pictures. Analysing symbols is a good way to do that. For example, we know that the [Saipikhup is the traditional weave](https://www.e-pao.net/epGallery.asp?id=10&src=Arts_Dances%2FMutua_Bahadur%2FMBTribalFabrics_2012_6) of the Kukis. It symbolises heritage and identity and is often worn during important occasions. We also found images of Kuki militants wearing this handwoven shawl (*saipikhup*) belonging to the Thadou indigenous tribe.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/Saipikhup-combined_v2.jpg)*A group of militants wearing the shawl (left, credit: Facebook) and a Thadou couple in traditional Saipikhup and Khamtang dress (right, credit:* [*Wikimedia Commons*](https://commons.wikimedia.org/wiki/File:Thadou_dress.jpg)*)*
+
+Their fatigues bear the insignia of the President faction of the Kuki National Front, which has been accused of attacking paramilitary security forces. Meanwhile, the same group in the image brandishes AK-pattern and INSAS rifles. These are both Indian police or military issues, matching reported looting from armouries. Several weapons in the image were also heavily customised or locally fabricated (painted, wrapped stocks, home-attached scopes), consistent with militia or irregular combatant practices.
+
+Other images also offer clues.
+
+The Kangleipak is a seven-colour flag usually brandished by the AT.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/Kangleipak_v2.jpg)*A group of militants with the traditional Kangleipak flag (source: Facebook) and the Kangleipak flag (bottom right, credit: Wikpedia/*[*Punshiba18*](https://commons.wikimedia.org/w/index.php?curid=58443602) *– Own work, CC BY-SA 4.0)*
+
+Bellingcat also identified the AT’s commander-in-chief, Korounganba Khuman, in the photos and videos. He actively posts on his Facebook profile and has been widely covered by the local and national press.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/Korounganba-Khuman.jpg)*Arambai Tenggol commander-in-chief, Korounganba Khuman, sitting with a gun in his hand. Source: Facebook*
+
+News outlets are also valuable sources of information. They might contain images of symbols such as flags, which you can then search for on social media. In one of the videos, we identified militants speaking Meitei Lon, a language used by Arambai Tenggol and militant groups like the UNLF, preparing to fire a rocket from a rooftop launcher. Their fatigues bore an insignia that we matched to the UNLF armed group using reverse image search, which led us to a news [story](https://indianexpress.com/article/india/india-news-india/in-frame-inner-line-permit-campaigner-with-militant-flag/) featuring the group’s flag as the lead image.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/Flag-collage_v2.jpg)*A report by* [*The Indian Express*](https://indianexpress.com/article/india/india-news-india/in-frame-inner-line-permit-campaigner-with-militant-flag/)*, including the militant flag (top right), the same flag seen on the uniform of a man preparing to fire a rocket from a rooftop (left corner and centre image)*
+
+Praveen Donthi, a senior analyst with the [Crisis Group](https://www.crisisgroup.org/asia/south-asia/india/346-finding-way-out-festering-conflict-indias-manipur) who visited Manipur last year during elections, told Bellingcat that though he hadn’t seen arms on any of the aforementioned Kuki Zo militant groups, he had seen INSAS rifles, automatics and double-barrel guns being wielded by several young men in the Imphal valley.
+
+“I saw these young men who must have been in their early teens to early twenties when I’d gone to meet Meitei Leepun [a Hindu right-wing activist group] first wielding what looked like state-issued weapons,” he said. “Then later, they replaced it with double-barreled guns. But their leader [Pramot Singh] was openly carrying a pistol in his holster when he came to meet me,” Donthi explained.
+
+Donthi, a former journalist who has reported from conflict zones in Kashmir and Chhattisgarh in India, said he was struck by the young men who were heavily armed in a volatile environment without any evident goal or political ideology guiding them.
+
+## **Weapons Looted: Where Did They End Up?**
+
+When investigating conflicts, identifying the origin of weapons is one of the most difficult tasks, particularly in regions plagued by misinformation or a lack of reliable data. This is the case in Manipur.
+
+Of the 6,000 firearms and ammunition looted from state police armouries mentioned earlier, about half of the weapons have been recovered to date. Around 1,200 matched serial numbers from official inventories, according to [reports](https://www.thehindu.com/news/national/2681-weapons-recovered-in-manipur-of-which-only-1200-were-looted-from-police-armouries-security-adviser/article68665551.ece). Of the weapons recovered, approximately 800 sophisticated ones likely originated outside the state, and 600 were crude, locally produced firearms.
+
+## Subscribe to the Bellingcat newsletter
+
+Subscribe to our newsletter for first access to our published content and events that our staff and contributors are involved with, including interviews and training workshops.
+
+The largest surrender of weapons took place in February and March when more than 1000 weapons were reportedly surrendered, with more than half from the Meitei-dominated valley districts, where a majority of the weapons were looted. The largest cache was surrendered on Febr. 27 by the Arambai Tenggol (AT). However, the state police is yet to complete categorising the details of the weapons and ammunition surrendered between Febr. 20 and March 6 against the inventory of weapons looted from the state armouries.
+
+Bellingcat requested official data from the Manipur police on surrendered weapons matched against serial numbers from official inventories, but had received no response by the time of publication.
+
+Instead, we decided to see what we could find by using open sources. First, we scraped the state police force’s official X profile ([@manipur\_police](https://x.com/manipur_police)) from Sept. 10, 2023, until June 14, 2025. We did it manually and using Meltwater – a social media monitoring tool.
+
+Our analysis of the police’s posts suggests that of those looted, six AK-47 rifles, 21 SLRs, 13 .303-calibre rifles, 16 INSAS rifles, 15 carbines, and 44 pistols were recovered during that time period. Data analysis from the past two years shows that, altogether, blank rounds, cartridges, ammunition, live rounds and empty cases make up the majority of recoveries.
+
+Before analysing the data, we dug deeper into media reports, experts’ posts and research to understand what was being used locally. In the Manipur case, recovered firearms include locally manufactured bolt-action rifles, improvised mortars and weapons such as the “Pumpi” – a gun made from repurposed metallic electric poles. These are especially common in the hill areas where the Kuki Zo people live.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/Pumpi-1200x924.jpeg)*A “Pumpi” presented by the Manipur police in February 2024 (Credit:* [*X/@manipur\_police*](https://x.com/manipur_police/status/1759104788674023684)*)*
+
+The heavy reliance on grenades and improvised explosives is consistent with the guerrilla-style, asymmetric engagements – hit-and-fades, booby-traps, and area denial – rather than large-scale firefights. The presence of multiple improvised munitions types reflects local workshops or village-level bomb-making, likely to supplement limited access to military-grade ordinance, consistent with media reporting on the same (see [here](https://www.forumarmstrade.org/blog/manipurs-pumpi-guns-why-should-we-care-about-them) and [here](https://www.aljazeera.com/features/2025/3/6/bombs-in-every-house-why-peace-is-elusive-in-indias-manipur)).
+
+## **Claims Over Weaponised Drones**
+
+In September last year, Indian media reported villagers in the valley district witnessing drones allegedly dropping as many as [50 bombs](https://theprint.in/india/it-rained-bombs-for-3-hrs-in-a-manipur-village-drones-made-sorties-dropped-over-50-bombs/2266102/). Kuki Zo village volunteers and insurgent groups were reported to have set up bunkers in the hills, much like their Meitei counterparts in the valley.
+
+These claims were supported by a Manipur Police [statement](https://www.thehindu.com/news/national/manipur/woman-killed-daughter-injured-in-firing-in-manipur-by-suspected-militants/article68593169.ece). The central counter terrorism law enforcement authority, the [National Investigating Agency](https://www.india.gov.in/official-website-national-investigation-agency), which filed a case alleging weaponised drone attacks, told the Manipur High Court that Kuki militants dropped [40 drone bombs](https://www.news18.com/india/over-40-drone-bombs-dropped-by-kuki-terrorists-in-september-2024-manipur-attack-nia-tells-court-9238383.html).
+
+A source in the Defence Ministry told Indian news site [The Print](https://theprint.in/defence/army-finds-no-evidence-of-drones-dropping-bombs-in-manipur/2266150/) that the drone videos circulating online were from either [Myanmar](https://theprint.in/india/pti-fact-check-clips-of-helicopter-downing-drone-attack-in-myanmar-falsely-shared-as-from-manipur/2270251/) or Palestine. Many of the videos showed fertiliser drones, but these were deployed by the People’s Defence Forces in Myanmar, they added.
+
+## How Do You Investigate Potential Drone Usage With Open Source Tools?
+
+The Manipur Police posted an image of a [drone](https://x.com/manipur_police/status/1830653914250990048) recovered in the Kangpokpi District, a day after the first set of attacks.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/drone.jpg)*The drone recovered in the Kangpokpi District (Credit:* [*X/manipur\_police*](https://x.com/manipur_police/status/1830653914250990048)*)*
+
+The first step is to identify the possible drone type. The easiest way is by using Google’s reverse image search engine. We identified the drone as commercial-grade, weighing approximately 181g. The carbon fibre lightweight drones, built for speed and agility with a payload capacity of up to 1.5kg, are widely available on the internet. Security sources told [The Print](https://theprint.in/india/it-rained-bombs-for-3-hrs-in-a-manipur-village-drones-made-sorties-dropped-over-50-bombs/2266102/) that the bombs weighed 300-400g and were nine to 10 inches (23 to 25cm) in size.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/image15.jpg)*Reverse search on Google Images*
+
+After establishing the possible drone type, we can also examine the reported impact sites. Since we only have [images](https://theprint.in/india/it-rained-bombs-for-3-hrs-in-a-manipur-village-drones-made-sorties-dropped-over-50-bombs/2266102/) of the attack sites shown in the media, we asked Andro Mathewson, a reputed munitions researcher and explosives expert completing his doctoral studies on weaponised drones in smaller conflicts at King’s College London, for help.
+
+He told Bellingcat that in this situation, “the payload is probably quite small. So the damage won’t be extensive”.
+
+“Some of the images that are shared in The Print report,” added Mathewson, “obviously show a lot of destruction, but a lot of it seems to be sort of secondary destruction from fires rather than from explosions itself”.
+
+Nothing was visible that could specifically determine if drones were used to deploy munitions. The damage from a smaller payload like 400-600g of a grenade would not exceed more than 20 to 30m, according to Mathewson, adding that larger or heavier payloads are not typically seen among non-professional militaries.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/image12-1200x850.jpg)*Screengrab from a BBC report on drone attacks in Manipur. Source:* [*BBC News India*](https://www.youtube.com/watch?v=O6nFDNkAXA4).
+
+The next step is to find out if the munitions have been adapted for drone deployment. Mathewson told Bellingcat that photos of drone parts published by the media were not consistent with munitions deployed by drones. Bellingcat was not able to independently confirm the source or authenticity of these photos.
+
+“That shrapnel looks large, very thick, and very heavy, which is more consistent with larger artillery rounds or even small missiles,” he said. He also noted that the printed fin “looks quite small”.
+
+“Fins made out of plastic are not likely to be attached to a much larger munition that’s produced that type of shrapnel,” he told Bellingcat, saying that “from the scale that we can get in those images, those don’t seem to add up to me”.
+
+![](https://www.bellingcat.com/app/uploads/2025/08/image14-800x1200.jpg)*Drone parts published in local media outlets, circulating on Facebook.*
+
+For future reference, when we asked Mathewson what to look out for to confirm the use of weaponised drones, he suggested two things. One would be to see and verify videos of drone strikes, either shot by other drones or on phones – something that is conspicuously missing from Manipur despite the authorities’ claims that there have been drone strikes, although there is plenty of online footage of other sophisticated weapons used there. Secondly, Mathewson also said it was worth looking out for 3D-printed munition parts, such as 3D-printed fins that are attached to conventional weapons.
+
+“That’s not necessarily a guarantee, but it’s most closely associated with [modified drones] because the only reason you would attach fins to a grenade, for example, is to make them be dropped from drones,” he added.
+
+*Additional reporting by Douminlien Haokip.*
+
+Pooja Chaudhuri, Claire Press and Gyula Csák contributed to this report for Bellingcat.
+
+*Bellingcat is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can do so* [*here*](https://www.bellingcat.com/donate/)*. You can also subscribe to our Patreon channel* [*here*](https://www.patreon.com/bellingcat)*. Subscribe to our* [*Newsletter*](https://bellingcat.us14.list-manage.com/subscribe/post?u=c435f53a5568f7951404c8a38&id=4be345b082) *and follow us on Twitter* [*here*](https://twitter.com/bellingcat) *and Mastodon* [*here*](https://mstdn.social/@Bellingcat)*.*
+
+The post [<strong>A Guide To Monitoring Conflict Amidst a Sea of Misinformation</strong>](https://www.bellingcat.com/news/rest-of-world/2025/09/01/a-guide-to-monitoring-conflict-amidst-a-sea-of-misinformation/) appeared first on [bellingcat](https://www.bellingcat.com/).
+
+---
+
+*From [bellingcat](https://www.bellingcat.com/) via [this RSS feed](https://www.bellingcat.com/feed/)*",2025-09-01T12:43:21.482855+00:00,2,en,Google Photos find photo,2026-09-22T04:45:46.722326+00:00

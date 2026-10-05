@@ -1,0 +1,112 @@
+# Search Queries Configuration for Google Photos Discovery Engine
+# Research Focus: Photo/Video retrieval, vague search descriptions, timeline scrolling, search failures, AI search regressions
+
+google_photos_retrieval:
+  - "Google Photos can't find photo"
+  - "Google Photos search old photos"
+  - "Google Photos find specific photo"
+  - "Google Photos search doesn't work"
+  - "Google Photos remember photo can't find"
+  - "Google Photos search by description"
+  - "Google Photos search by date"
+  - "Google Photos search by location"
+  - "Google Photos find photo from trip"
+  - "Google Photos find screenshot"
+  - "Google Photos find document"
+  - "Google Photos find receipt"
+  - "Google Photos search irrelevant results"
+  - "Google Photos search too many results"
+  - "Google Photos search too few results"
+  - "Google Photos search missing photos"
+  - "Google Photos AI search"
+  - "Ask Google Photos"
+  - "Google Photos vague search"
+  - "Google Photos natural language search"
+  - "Google Photos scroll timeline find photo"
+  - "Google Photos album workaround"
+  - "Google Photos search regression"
+
+source_specific:
+  google_play:
+    keywords:
+      - "search"
+      - "find photo"
+      - "can't find"
+      - "search doesn't work"
+      - "Ask Photos"
+      - "AI search"
+      - "find screenshot"
+      - "missing photos"
+      - "search results"
+      - "face recognition"
+      - "location search"
+
+  app_store:
+    keywords:
+      - "search"
+      - "find"
+      - "look for photo"
+      - "can't find photo"
+      - "search feature"
+      - "Ask Photos"
+      - "AI search"
+      - "album"
+      - "scrolling"
+
+  reddit:
+    subreddits:
+      - "googlephotos"
+      - "google"
+      - "android"
+      - "ios"
+    queries:
+      - "can't find photo"
+      - "search doesn't work"
+      - "search old photos"
+      - "find specific photo"
+      - "Ask Photos"
+      - "search by description"
+      - "find screenshot"
+      - "search broken"
+      - "AI search"
+      - "vague search"
+      - "search regression"
+      - "can't find pictures"
+
+  google_photos_community:
+    queries:
+      - "can't find photo"
+      - "search not working"
+      - "find old photos"
+      - "missing photos search"
+      - "search by date"
+      - "search by location"
+      - "search results wrong"
+      - "Ask Photos not working"
+      - "find screenshot"
+
+  youtube:
+    queries:
+      - "Google Photos AI search"
+      - "Ask Google Photos search"
+      - "Google Photos search tips"
+      - "Google Photos how to find old photos"
+      - "Google Photos search update"
+      - "Google Photos find photos fast"
+
+  forums:
+    queries:
+      - "Google Photos search"
+      - "Google Photos can't find photo"
+      - "Ask Google Photos"
+      - "Google Photos AI search"
+      - "Google Photos search regression"
+      - "Google Photos find screenshot"
+
+  social_media:
+    queries:
+      - "Google Photos search"
+      - "Google Photos can't find"
+      - "Ask Photos Google"
+      - "Google Photos search broken"
+      - "Google Photos find photo"
